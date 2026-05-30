@@ -1,0 +1,52 @@
+Laptop TUF Gaming A16 AMD Ryzen 7 260 16GB 512SSD RTX5060 16" FHD+
+
+Precio: S/. 5 999.00
+Precio en oferta: S/. 5 899.00
+
+ESPECIFICACIONES:
+Condicion del producto	Nuevo
+Capacidad de almacenamiento	512 GB
+Capacidad de la tarjeta de video	8GB
+Características	RAM expandible
+Características de la pantalla	WUXGA
+Memoria RAM	16GB
+Resolución de pantalla	WUXGA
+Sistema operativo	Windows 11
+Sistema operativo específico	Windows 11 Home
+alto	1.79cm
+Ancho	35.40cm
+Largo	26.90cm
+Profundidad	26.90cm
+Tarjeta gráfica específica	NVIDIA GeForce RTX 5060 Laptop GPU
+Procesador específico	AMD Ryzen 7 260 Processor
+Marca tarjeta gráfica	Nvidia
+Año de lanzamiento	2026
+Pantalla touch	No
+Tipo de Portátil	Laptop Gamer
+Criterios de Sostenibilidad	Producción Sustentable
+Detalle de la garantía	Sí
+Alto	1.79cm
+Tamaño de la pantalla	16
+Ancho	35.40cm
+Detalle de la Condición	Nuevo
+Cantidad de puertos USB	5
+Procesador	AMD Ryzen 7
+Modelo	FA608UM-RV069W
+Hecho en	China
+Requiere Serial Number	No
+Color	GRAY
+Cuenta con bluetooth	Sí
+Garantía del proveedor	1 año
+Cantidad de puertos HDMI	1
+Núcleos del procesador	Octa core
+Sistema de sonido	Otro
+Velocidad de imagen	165Hz
+Disco duro secundario	No aplica
+Incluye	Laptop + cargador
+Tasa de refresco nativa	165Hz
+Sistema Operativo	Windows 11 Home
+Duración de la batería (hrs)	4Hrs
+Velocidad de procesamiento (GHz)	3.8GHz
+Profundidad	26.90cm
+Velocidad del procesador	3.8GHz
+Largo	26.90cm
