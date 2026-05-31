@@ -58,7 +58,7 @@ header{
 }
 
 .banner img{
-    width: 60%;
+    width: 70%;
 }
 
 .productos{
@@ -79,7 +79,7 @@ header{
 
 .img-card{
     width: 30%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .text-card{
