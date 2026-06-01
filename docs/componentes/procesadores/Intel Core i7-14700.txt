@@ -1,0 +1,44 @@
+Procesador Intel Core i7-14700 hasta 5.4Ghz 33MB_Cache LGA1700 con video Intel UHD Graphics 730
+
+Precio: S/. 1 899.00
+Precio en oferta: S/. 1 549.00
+
+ESPECIFICACIONES:
+
+Cantidad de núcleos 
+20
+Cantidad de Performance-cores
+8
+Cantidad de Efficient-cores
+12
+Total de subprocesos 
+28
+Frecuencia turbo máxima 
+5.4 GHz
+Frecuencia de la Tecnología Intel® Turbo Boost Max 3.0 ‡ 
+5.4 GHz
+Frecuencia turbo máxima del Performance-core 
+5.3 GHz
+Frecuencia turbo máxima de Efficient-core 
+4.2 GHz
+Frecuencia base de Performance-core 
+2.1 GHz
+Frecuencia base de Efficient-core 
+1.5 GHz
+Caché 
+33 MB Intel® Smart Cache
+Caché L2 total
+28 MB
+Potencia base del procesador 
+65 W
+Potencia turbo máxima 
+219 W
+Tamaño de memoria máximo (depende del tipo de memoria) 
+192 GB
+Tipos de memoria 
+Up to DDR5 5600 MT/s
+Up to DDR4 3200 MT/s
+Cantidad máxima de canales de memoria 
+2
+Máximo de ancho de banda de memoria 
+89.6 GB/s

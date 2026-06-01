@@ -1,0 +1,32 @@
+Procesador AMD Ryzen 5 9600X 3.90GHz 6 Núcleos sin disipador incluido
+
+Precio: S/.  1 299.00
+Precio en oferta: S/. 1 099.90
+
+ESPECIFICACIONES:
+
+NÚMERO DE NÚCLEOS: 6
+NÚMERO DE HILOS: 12
+FRECUENCIAS FRECUENCIA BASE: 3,90 GHz
+FRECUENCIA MÁXIMA DE TURBO: 5,40 GHz
+DESBLOQUEADO: SÍ
+CACHE TOTAL L1 CACHE: 480 KB
+TOTAL L2 CACHE:  6 MB
+TOTAL L3 CACHE: 32 MB
+POTENCIA TDP: 65 Watt
+Tecnología de procesador para núcleos de CPU: TSMC 4nm FinFET
+Tecnología de procesador para chip de E/S: TSMC 6nm FinFET
+Número de chips en paquete: 2
+Desbloqueado para overclocking: Sí
+Tecnología de overclocking de memoria AMD EXPO™: Sí
+Precision Boost Overdrive: Sí
+Compensaciones de voltaje del optimizador de curvas: Sí
+Compatibilidad con AMD Ryzen™ Master: Sí
+Zócalo de CPU: AM5
+Chipsets compatibles: A620, X670E, X670, B650E, B650, X870E, X870, B840, B850
+Tecnología de refuerzo de CPU: Precision Boost 2
+Conjunto de instrucciones: x86-64
+Extensiones compatibles: AES, AMD-V, AVX, AVX2, AVX512 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64
+Solución térmica (producto en caja): no incluida
+Enfriador recomendado: se recomienda un enfriador de aire premium para un rendimiento óptimo
+Temperatura máxima de funcionamiento (Tjmax): 95 °C

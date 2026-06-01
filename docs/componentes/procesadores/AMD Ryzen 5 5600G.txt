@@ -1,0 +1,24 @@
+Procesador AMD Ryzen 5 5600GT 3.6GHz 6 Núcleos con Gráficos Radeon
+
+Precio: S/. 759.00
+Precio en oferta: S/. 699.00
+
+ESPECIFICACIONES:
+
+Línea de productos: AMD Ryzen™ 5 5000 G-Series Desktop Processors
+Reloj de aumento máx.: Hasta 4.6GHz
+Reloj base: 3.6GHz
+Caché L1 total: 384KB
+Caché L2 total: 3MB
+Caché L3 total: 16MB
+Plataforma: Boxed Processor
+# de núcleos de CPU: 6
+# de subrpocesos: 12
+Solución térmica (PIB): AMD Wraith Stealth
+CPU Socket: AM4
+Compatibilidad de gráficos
+
+Modelo de gráficos: Radeon™ Graphics
+# de núcleos de GPU:  7
+ 
+Frecuencia de gráficos: 1900 MHz

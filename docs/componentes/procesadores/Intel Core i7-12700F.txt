@@ -1,0 +1,43 @@
+Procesador Intel Core i7-12700F hasta 4.9Ghz 25MB_Cache LGA1700
+
+Precio: S/. 1 499.00
+Precio en oferta: S/. 1 249.00
+
+ESPECIFICACIONES:
+Cantidad de núcleos 
+12
+Cantidad de Performance-cores
+8
+Cantidad de Efficient-cores
+4
+Total de subprocesos 
+20
+Frecuencia turbo máxima 
+4.90 GHz
+Frecuencia de la Tecnología Intel® Turbo Boost Max 3.0 ‡ 
+4.90 GHz
+Frecuencia turbo máxima del Performance-core 
+4.80 GHz
+Frecuencia turbo máxima de Efficient-core 
+3.60 GHz
+Frecuencia base de Performance-core 
+2.10 GHz
+Frecuencia base de Efficient-core 
+1.60 GHz
+Caché 
+25 MB Intel® Smart Cache
+Caché L2 total
+12 MB
+Potencia base del procesador 
+65 W
+Potencia turbo máxima 
+180 W
+Tamaño de memoria máximo (depende del tipo de memoria) 
+128 GB
+Tipos de memoria 
+Up to DDR5 4800 MT/s
+Up to DDR4 3200 MT/s
+Cantidad máxima de canales de memoria 
+2
+Máximo de ancho de banda de memoria 
+76.8 GB/s

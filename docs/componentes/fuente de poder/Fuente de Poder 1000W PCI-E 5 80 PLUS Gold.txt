@@ -1,0 +1,22 @@
+Fuente de Poder 1000W MSI MAG A1000GLS PCI-E 5 80 PLUS Gold
+
+Precio: S/. 599.90
+Precio en oferta: S/. 549.90
+
+ESPECIFICACIONES:
+
+Formato PSU	ATX
+Rangos de potencia	+ 1000 Watts
+Potencia	1000W
+Certificación	80 Plus Gold
+Cables modulares	Sí
+Conectores PCI-Express	5
+Conectores Molex	4
+Conectores SATA	11
+Conectores 16-pin	1
+Conectores (6+2)-pin	4
+Conectores 6-pin	0
+Tamaño ventilador	135mm
+Linea de 12V	
+PFC Activo	Si
+Dimensiones	150 x 150 x 86 mm

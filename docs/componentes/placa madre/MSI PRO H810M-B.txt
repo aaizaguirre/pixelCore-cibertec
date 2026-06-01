@@ -1,0 +1,21 @@
+Placa Madre MSI PRO H810M-B (mATX, DDR5, Intel LGA1851)
+
+Precio: S/. 479.90
+Precio en oferta: S/. 419.90
+
+ESPECIFICACIONES:
+Chipset	Intel® H810
+CPU soportados	Intel® Core™ Ultra (Serie 2), socket LGA 1851
+Memoria	2× DDR5 UDIMM, hasta 128 GB, velocidades 4800–6400 MT/s, soporte Dual-Channel, Intel® XMP 3.0
+Gráficos integrados	1× HDMI™ 2.1 (4K @ 60Hz), 1× DisplayPort 1.4 (4K @ 60Hz) solo con CPU con gráficos integrados
+Ranuras de expansión	1× PCIe x16 Gen 5.0, 2× PCIe x1 Gen 4.0
+Audio	Realtek® ALC897, sonido HD 7.1 canales
+Almacenamiento	1× M.2 PCIe 4.0 x4 (2280/2260), 4× SATA 6Gb/s
+USB (traseros)	4× USB 2.0, 2× USB 5Gbps Type-A
+USB (frontales)	4× USB 2.0, 2× USB 5Gbps Type-A, 1× USB 10Gbps Type-C
+Red	Realtek® 8125 2.5Gbps LAN
+Conectores internos	1× ATX_PWR, 1× CPU_PWR, 1× CPU Fan, 2× System Fan, 2× Front Panel, 1× Chassis Intrusion, 1× Front Audio, 1× JDASH, 3× JARGB_V2, 1× JRGB, 1× TPM 2.0
+LEDs de diagnóstico	4× EZ Debug LED, 1× EZ Memory Detection LED
+Puertos traseros	DisplayPort, HDMI™, 2× USB 2.0, 2× USB 5Gbps Type-A, 2.5G LAN, conectores de audio
+Sistema operativo	Windows® 11 64-bit
+Formato PCB	mATX, 220 mm × 243.84 mm

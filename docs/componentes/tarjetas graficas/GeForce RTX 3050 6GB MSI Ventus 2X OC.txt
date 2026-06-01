@@ -1,0 +1,37 @@
+Tarjeta de video GeForce RTX 3050 6GB MSI Ventus 2X OC
+
+Precio: S/. 1 249.00
+Precio en oferta: S/. 929.90
+
+ESPECIFICACIONES:
+Modelo: GeForce RTX™ 3050 VENTUS 2X 6G OC
+GPU: NVIDIA® GeForce RTX™ 3050
+Memoria y rendimiento:
+Memoria: 6GB GDDR6
+Memoria bus: 96-bit
+Core clocks (boost): 1492 MHz
+CUDA® Cores: 2304 unidades
+Velocidad de memoria: 14 Gbps
+Conectividad y salidas:
+
+1 x DisplayPort (v1.4a)
+2 x HDMI™ (soporta 4K@120Hz)
+Hasta 3 pantallas soportadas
+Tecnología:
+
+G-SYNC®
+Soporte HDCP
+Soporte DirectX 12 Ultimate
+Soporte OpenGL 4.6
+Consumo de energía:
+
+Consumo de energía: 70 W
+Alimentación recomendada: 300 W
+Dimensiones y peso:
+
+Dimensiones de la tarjeta: 189 x 109 x 42 mm
+Peso de la tarjeta: 381 g
+Peso total del paquete: 610 g
+Resolución máxima:
+
+Resolución digital máxima: 7680 x 4320

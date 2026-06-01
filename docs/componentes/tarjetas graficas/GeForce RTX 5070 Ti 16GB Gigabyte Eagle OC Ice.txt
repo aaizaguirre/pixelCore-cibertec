@@ -1,0 +1,25 @@
+Tarjeta de video GeForce RTX 5070 Ti 16GB Gigabyte Eagle OC Ice
+
+Precio: S/. 7 699.00
+Precio en oferta: S/. 5 699.00
+
+ESPECIFICACIONES:
+GPU	NVIDIA
+Cantidad de núcleos	8960
+Velocidad GPU	2542 MHz (Reference: 2452 MHz)
+Cantidad de memoria	16GB
+Tipo de memoria	GDDR7
+Velocidad memoria	28 Gbps
+Bus de datos	256 bit
+Puertos VGA	No incluye
+Puertos DVI	No incluye
+Puertos HDMI	1 x HDMI
+Puertos DisplayPort	3 x DisplayPort
+Uso de fuente de poder	Si
+Conectores 16-pin	1
+Conectores (6+2)-pin	0
+Conectores 6-pin	0
+Tamaño de tarjeta	310mm
+Uso de slots	2.8
+Consumo	Fuente recomendada de 750W
+Dimensiones	L=304 W=126 H=50 mm

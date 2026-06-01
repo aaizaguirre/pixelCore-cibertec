@@ -1,0 +1,26 @@
+Tarjeta de video GeForce RTX 3050 6GB Asus Dual OC
+
+Precio: S/. 1 199.00
+Precio en oferta: S/. 929.90
+
+ESPECIFICACIONES:
+
+GPU	NVIDIA
+Cantidad de núcleos	2304 CUDA Cores
+Velocidad GPU	1537 MHz
+Cantidad de memoria	6GB
+Tipo de memoria	GDDR6
+Velocidad memoria	14 Gbps
+Bus de datos	96 bit
+Puertos VGA	No incluye
+Puertos DVI	1 x DVI
+Puertos HDMI	1 x HDMI
+Puertos DisplayPort	1 x DisplayPort
+Uso de fuente de poder	No
+Conectores 16-pin	0
+Conectores (6+2)-pin	0
+Conectores 6-pin	0
+Tamaño de tarjeta	205mm
+Uso de slots	2
+Consumo	Fuente recomendada de 450W
+Dimensiones	201 x 120 x 37 mm

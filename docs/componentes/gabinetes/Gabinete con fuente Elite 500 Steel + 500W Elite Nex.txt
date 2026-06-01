@@ -1,0 +1,30 @@
+Gabinete con fuente Elite 500 Steel + 500W Elite Nex
+
+Precio: S/. 439.90
+Precio en oferta: S/. 349.90
+
+ESPECIFICACIONES:
+
+Factor de Forma	Micro-ATX,mATX,mini-ITX
+Bahías 5.25"	0
+Bahías 3.5"	2
+Bahías SSD	2
+Formato PSU	ATX
+Tamaño tarjeta video	
+Puertos de expansión	4
+Tamaño disipador	14 cm,Doble radiador (24cm)
+Ventana lateral	No incluye
+Tamaño ventilador	120 mm
+Ventiladores inc.	2 ventiladores
+Espacios para ventiladores	6
+Soporte para ventilador de 20cm	0
+LEDs	Sí
+Fuente de poder	Si incluida
+Potencia	500W
+Conectores PCI-Express	2
+Conectores Molex	3
+Conectores SATA	5
+Conectores (6+2)-pin	2
+Conectores 6-pin	2
+Peso	
+Dimensiones	409 x 204 x 455 mm

@@ -1,0 +1,18 @@
+Placa Madre Asus Prime H610M-K D5 (mATX, DDR5, Intel LGA1700)
+
+Precio: S/. 369.90
+Precio en oferta: S/. 319.90
+
+ESPECIFICACIONES:
+Socket Intel® LGA 1700, listo para procesadores Intel® Core™ de 12ª, 13ª y 14ª generación.
+Soporte para memoria DDR5 con perfiles Intel® XMP para rendimiento optimizado.
+Conectividad ultrarrápida: PCIe 4.0, puerto M.2 de 32 Gbps, Realtek 1 Gb Ethernet y USB 3.2 Gen 1.
+Diseño de enfriamiento integral con disipador PCH y Fan Xpert 2+.
+5X Protection III: múltiples protecciones de hardware para mayor seguridad.
+Puertos de expansión: 1 x PCIe 4.0 x16 SafeSlot Core, 1 x PCIe 3.0 x1, 1 x puerto RGB.
+Almacenamiento: 1 x M.2 PCIe 3.0 x4, 4 x SATA 6Gb/s.
+Conectividad de video: HDMI™ y VGA.
+Audio excepcional con diseño inteligente y hardware premium.
+BIOS UEFI con modo EZ para principiantes y modo avanzado para usuarios experimentados.
+Software Armoury Crate para personalización y gestión centralizada de dispositivos ASUS.
+Indicador Q-LED Core para diagnóstico visual durante el arranque.

@@ -1,0 +1,35 @@
+Procesador Intel Core i7-14700K hasta 5.6Ghz 33MB_Cache LGA1700 Video Intel UHD s/cooler
+
+Precio: S/. 2 299.00
+Precio en oferta: S/. 1 649.00
+
+ESPECIFICACIONES:
+Colección de productos: Procesadores Intel® Core ™ i7 de 14.a generación
+Segmento vertical: Escritorio
+Número de procesador: i7-14700K
+Litografía: Intel 7
+Cantidad de núcleos: 20
+Cantidad de performance-cores: 8
+Cantidad de subprocesos: 28
+Frecuencia turbo máxima: 5.6 GHz
+Frecuencia turbo máxima del performance-core: 5.5 GHz
+Frecuencia base de performance-core: 3.4 GHz
+Caché: 33 MB Intel® Smart Cache
+Caché L2 total: 28 MB
+Potencia base del procesador: 125 W
+Potencia turbo máxima: 253 W
+Tamaño de memoria máximo: (depende del tipo de memoria) 192GB
+Tipos de memoria: Up to DDR5 5600 MT/s, Up to DDR4 3200 MT/s
+Cantidad máxima de canales de memoria: 2
+Ancho de banda de memoria máximo: 89.6GB/s
+Revisión de la interfaz de medios directa (DMI): 4.0
+Cantidad máxima de carriles DMI: 8
+Escalabilidad: 1S
+Revisión de PCI Express: 5.0 y 4.0
+Configuración de PCI Express: Up to 1x16+4, 2x8+4
+Cantidad máxima de líneas PCI Express: 20
+Zócalos compatibles: FCLGA1700
+Máxima configuración de CPU: 1
+Tamaño de paquete: 45.0 mm x 37.5 mm
+GPU: Intel® UHD Graphics 770
+Frecuencia Base de Gráficos: 300 MHz

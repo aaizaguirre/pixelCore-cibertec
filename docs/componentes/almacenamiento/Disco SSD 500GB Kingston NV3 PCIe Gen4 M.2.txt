@@ -1,0 +1,12 @@
+Disco SSD 500GB Kingston NV3 PCIe Gen4 M.2
+
+Precio: S/. 529.90
+Precio en oferta: S/. 459.90
+
+ESPECIFICACIONES:
+
+Tipo de Almacenamiento	Unidad de Estado Sólido
+Capacidad	500 GB
+Interfaz	PCIe Gen4
+Accesorios	No incluye
+Factor de Forma	M.2

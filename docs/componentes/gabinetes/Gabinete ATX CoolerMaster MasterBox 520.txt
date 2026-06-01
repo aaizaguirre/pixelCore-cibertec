@@ -1,0 +1,29 @@
+Gabinete ATX CoolerMaster MasterBox 520 Mesh ARGB Negro (MB520-KGNN-S00)
+
+Precio: S/. 499.90
+Precio en oferta: S/. 379.90
+
+ESPECIFICACIONES:
+Factor de Forma	ATX,E-ATX,Micro-ATX,mATX,mini-ITX
+Bahías 5.25"	0
+Bahías 3.5"	2
+Bahías SSD	3
+Formato PSU	ATX
+Tamaño tarjeta video	
+Puertos de expansión	7
+Tamaño disipador	14 cm,Doble Radiador (28cm),Doble radiador (24cm),Low profile,Radiador simple 12cm,Torre (12cm)
+Ventana lateral	Sí
+Tamaño ventilador	120 mm
+Ventiladores inc.	3 ventiladores
+Espacios para ventiladores	7
+Soporte para ventilador de 20cm	0
+LEDs	Sí
+Fuente de poder	No incluida
+Potencia	
+Conectores PCI-Express	0
+Conectores Molex	0
+Conectores SATA	0
+Conectores (6+2)-pin	0
+Conectores 6-pin	0
+Peso	7.13 Kg
+Dimensiones	430 x 210 x 479mm

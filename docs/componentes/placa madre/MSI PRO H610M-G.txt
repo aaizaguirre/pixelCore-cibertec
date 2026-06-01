@@ -1,0 +1,44 @@
+Placa Madre MSI PRO H610M-G (mATX, DDR4, Intel LGA1700)
+
+Precio: S/. 389.90
+Precio en oferta: S/. 329.90
+
+ESPECFICACIONES:
+Marca: MSI
+Procesador: Admite procesadores Intel Core de 12° y 13° generación, procesadores Pentium Gold y Celeron
+Chipset: Conjunto de chips Intel H610
+CPU (Soporte máximo): i9
+Enchufe: 1700
+Conjunto de chips: Conjunto de chips Intel® H610
+Memoria: 2 Ranuras de memoria DDR4, admite hasta 64GB. 3200 MHz Máximo
+Canal de memoria: Doble
+Ranura de expansión:
+1 ranura PCIe x16 (desde la CPU): Admite hasta PCIe 4.0 x16
+1 ranura PCIe x1: Soporta PCIe 3.0 x1
+1x ranura M.2 con E-key solo para módulo WiFi PCIe (M2_ WIFI1)
+Gráficos:
+1xHDMI 2.1 con puerto HDR, admite una resolución máxima de 4K 60Hz
+1 puerto VGA, admite una resolución máxima de 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz
+1 puero DisplayPort 1.4, admite una resolución máxima de 4K 60Hz
+Puertos SATA: 4 Puertos SATA 6Gb/s
+Ranura SSD M.2
+1 ranura M.2 (clave M, del conjunto de chips)
+USB
+4 puertos USB 3.2 Gen 1 5 Gbps (2 puertos tipo A en el panel posterior, 2 puertos disponibles a través del conector USB interno)
+6 puertos USB 2.0 (4 puertos tipo A en el panel posterior (hub-GL850G), 2 puertos disponibles a través del conector USB 2.0 interno)
+Audio: Códec Realtek® ALC892/ ALC897
+LAN: 1 controlador de LAN Gigabit Intel® I219V
+Conectores de alimentación:
+1 conector de alimentación principal ATX de 24 pines
+1x conector de alimentación ATX 12V de 8 pines
+Conectores de ventilador
+1 conector de ventilador de CPU de 4 pines
+1 conector de ventilador de sistema de 4 pines
+Conectores del sistema
+1x conector de audio del panel frontal
+2 conectores del panel del sistema
+1 conector de intrusión de chasis
+1 conector de módulo TPM
+Dimensiones: 24.4 cm x 21.1 cm
+Sistema operativo: Compatibilidad con Windows® 11 de 64 bits, Windows® 10 de 64 bits
+Factor de forma: M-ATX

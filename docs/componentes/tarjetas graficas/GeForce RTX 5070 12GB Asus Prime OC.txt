@@ -1,0 +1,25 @@
+Tarjeta de video GeForce RTX 5070 12GB Asus Prime OC
+
+Precio: S/. 4 299.00
+Precio en oferta: S/. 3 499.00
+
+ESPECIFICACIONES:
+GPU	NVIDIA
+Cantidad de núcleos	
+Velocidad GPU	
+Cantidad de memoria	12GB
+Tipo de memoria	
+Velocidad memoria	
+Bus de datos	
+Puertos VGA	
+Puertos DVI	
+Puertos HDMI	1 x HDMI
+Puertos DisplayPort	3 x DisplayPort
+Uso de fuente de poder	Si
+Conectores 16-pin	1
+Conectores (6+2)-pin	0
+Conectores 6-pin	0
+Tamaño de tarjeta	305mm
+Uso de slots	2.5
+Consumo	Fuente recomendada de 750W
+Dimensiones	304 x 126 x 50 mm

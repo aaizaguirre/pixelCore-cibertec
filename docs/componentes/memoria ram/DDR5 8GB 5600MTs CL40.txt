@@ -1,0 +1,15 @@
+Memoria RAM DDR5 8GB 5600MT/s CL40 Kingston Fury Beast
+
+Precio: S/. 699.90
+Precio en oferta: S/. 599.00
+
+ESPECIFICACIONES:
+Tipo de memoria	DDR5 DIMM
+Capacidad	8GB
+Formato	1
+Frecuencia	5600 MHz
+Latencia	CL40
+Configuración	Single Channel
+Voltaje	1.25V
+Soporte XMP	Sí
+Disipador de Calor	Sí

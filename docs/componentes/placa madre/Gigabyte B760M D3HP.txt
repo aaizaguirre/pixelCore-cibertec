@@ -1,0 +1,59 @@
+Placa Madre Gigabyte B760M D3HP (mATX, DDR4, Intel LGA1700)
+
+Precio: S/. 529.90
+Precio en oferta: S/. 419.90
+
+ESPECIFICACIONES:
+Socket LGA1700: Compatible con procesadores Intel® Core™ de 14ª, 13ª y 12ª generación, así como Pentium® Gold y Celeron®.
+Caché L3: Varía según el procesador (consultar lista de compatibilidad).
+Socket: Socket 1700
+Chipset: Intel® B760 Express.
+
+Memoria:
+Soporte para DDR4: Hasta 5333 MT/s (Overclocking), con opciones de 2933/2666/2400/2133 MT/s.
+4 x ranuras DIMM DDR4 (capacidad total de 128 GB, 32 GB por DIMM).
+Arquitectura de memoria de doble canal.
+Compatibilidad con módulos de memoria ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode) y non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16.
+Soporte para módulos de memoria Extreme Memory Profile (XMP).
+Gráficos Integrados:
+Procesador gráfico Intel® HD Graphics.
+Conectores de pantalla:
+1 x D-Sub (hasta 1920x1200@60Hz).
+1 x HDMI (hasta 4096x2160@60Hz, HDMI 2.1).
+1 x DisplayPort (hasta 4096x2304@60Hz).
+Soporte para triple pantalla simultánea.
+Audio:
+Realtek® Audio CODEC.
+Audio de alta definición (2/4/5.1/7.1 canales).
+Soporte para salida S/PDIF.
+Red (LAN):
+Realtek® GbE LAN chip (1 Gbps, 100 Mbps, 10 Mbps).
+Ranuras de Expansión:
+CPU: 1 x PCI Express x16 slot (PCIe 4.0) para tarjeta gráfica o SSD NVMe.
+Chipset: 2 x PCI Express x1 slots (PCIe 3.0).
+Almacenamiento:
+CPU:
+1 x M.2 connector (Socket 3, M key, type 2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU)
+Chipset:
+1 x M.2 connector (Socket 3, M key, type 2280 PCIe 4.0 x4/x2 SSD support) (M2P_SB)
+4 x SATA 6Gb/s.
+Soporte para RAID 0, 1, 5 y 10 en dispositivos de almacenamiento SATA.
+Puertos USB:
+1 x USB Type-C® (USB 3.2 Gen 1) en encabezado interno.
+5 x USB 3.2 Gen 1 (3 en panel trasero, 2 en encabezados internos).
+2 x USB 2.0/1.1 en panel trasero.
+Chipset + USB 2.0 hub: 4 x USB 2.0/1.1 en encabezados internos.
+Conectores Internos:
+Conectores para 24-pin ATX, 8-pin ATX 12V, cabecera de banda RGB LED , tiras LED, puertos USB, TPM, y más.
+Panel Trasero:
+2 x USB 2.0/1.1.
+1 x puerto PS/2 (teclado/mouse).
+1 x D-Sub.
+1 x DisplayPort, 1 x HDMI.
+3 x puertos USB 3.2 Gen 1.
+1 x RJ-45 (puerto de red).
+3 x tomas de audio.
+Sistema Operativo:
+Soporte para Windows 10 y Windows 11 de 64 bits.
+Factor de Forma:
+Micro ATX: 24.4 cm x 24.4 cm.

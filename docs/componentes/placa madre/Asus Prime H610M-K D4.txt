@@ -1,0 +1,32 @@
+Placa Madre Asus Prime H610M-K D4 (mATX, DDR4, Intel LGA1700)
+
+Precio: S/. 429.90
+Precio en oferta: S/. 339.90
+
+ESPECIFICACIONES:
+CPU: Intel® Socket LGA1700 for 13th Gen Intel® Core™ Processors & 12th Gen Intel® Core™, Pentium® Gold and Celeron® Processors*
+Chipset: Intel® H610 Chipset
+Memoria: 2 x DIMM, Max. 64GB, DDR4 3200/3000/2933/2800/2666/2400/2133 Non-ECC
+Gráficos: 1 x D-Sub port, 1 x HDMI® port
+Slots de expansión: 
+1 x PCIe 4.0 x16 slot
+1 x PCIe 3.0 x1 slot
+Almacenamiento:
+1 x M.2 slot
+4 x SATA 6Gb/s ports
+Ethernet: 1 x Realtek 1Gb Ethernet
+USB:
+2 x USB 3.2 Gen 1 ports (2 x Type-A)
+4 x USB 2.0 ports (4 x Type-A)
+1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports
+1 x USB 2.0 header supports additional 2 USB 2.0 ports
+Puertos:
+2 x USB 3.2 Gen 1 ports (2 x Type-A)
+4 x USB 2.0 ports (4 x Type-A)
+1 x D-Sub port
+1 x HDMI® port
+1 x Realtek 1Gb Ethernet port
+3 x Audio jacks
+1 x PS/2 Keyboard/Mouse combo port
+Sistema operativo: Windows® 11 64-bit, Windows® 10 64-bit
+Factor de forma: mATX Form Factor, 3.4 cm x 20.3 cm

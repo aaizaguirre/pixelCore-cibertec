@@ -1,0 +1,29 @@
+Gabinete ATX Antryx RX-260, 4 Ventiladores RGB
+
+Precio: S/. 229.90
+Precio en oferta: S/. 199.90
+
+ESPEFCIFICACIONES:
+Factor de Forma	ATX,Micro-ATX,mATX,mini-ITX
+Bahías 5.25"	0
+Bahías 3.5"	2
+Bahías SSD	1
+Formato PSU	ATX
+Tamaño tarjeta video	
+Puertos de expansión	5
+Tamaño disipador	165 mm/6
+Ventana lateral	Sí
+Tamaño ventilador	120 mm
+Ventiladores inc.	4 ventiladores
+Espacios para ventiladores	8
+Soporte para ventilador de 20cm	
+LEDs	Sí
+Fuente de poder	No incluida
+Potencia	
+Conectores PCI-Express	
+Conectores Molex	
+Conectores SATA	
+Conectores (6+2)-pin	
+Conectores 6-pin	
+Peso	
+Dimensiones	Tamaño de la caja: 410mm*215mm*482 mm(L*W*H)

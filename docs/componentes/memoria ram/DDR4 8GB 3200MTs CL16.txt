@@ -1,0 +1,18 @@
+Memoria RAM DDR4 8GB 3200MT/s CL16 Kingston Fury Beast
+
+Precio: S/. 479.00
+Precio en oferta: S/. 449.90
+
+ESPECIFICACIONES:
+Marca:  Kingston FURY
+Modelo: KF426C16BB/8
+Serie: Beast
+Tipo: DDR4
+Factor de forma: DIMM 288-pin
+Velocidad: 3200MHz 
+Capacidad: 8GB
+Latencia: 16-18-18
+Latencia CAS: CL16
+Buffer / registro: Unbuffered
+Soporte XMP: Intel XMP 2.0 (Extreme Memory Profile)
+Voltage: 1.35 V

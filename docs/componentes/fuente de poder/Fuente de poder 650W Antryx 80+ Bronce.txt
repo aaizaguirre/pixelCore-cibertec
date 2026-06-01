@@ -1,0 +1,22 @@
+Antryx
+Fuente de poder 650W Antryx 80+ Bronce
+
+Precio: S/. 249.00
+Precio en oferta: S/. 229.90
+
+ESPECIFICACIONES:
+Formato PSU	ATX
+Rangos de potencia	600-699 Watts
+Potencia	650W
+Certificación	80 Plus Bronze
+Cables modulares	No incluye
+Conectores PCI-Express	2
+Conectores Molex	3
+Conectores SATA	6
+Conectores 16-pin	0
+Conectores (6+2)-pin	2
+Conectores 6-pin	0
+Tamaño ventilador	120 mm
+Linea de 12V	Una sóla linea de 12V
+PFC Activo	Si
+Dimensiones	150 x 140 x 86 mm

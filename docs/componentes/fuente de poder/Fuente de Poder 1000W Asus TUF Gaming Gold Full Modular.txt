@@ -1,0 +1,21 @@
+Fuente de Poder 1000W Asus TUF Gaming Gold Full Modular
+
+Precio: S/. 799.90
+Precio en oferta: S/. 699.90
+
+ESPECIFICACIONES:
+Formato PSU	ATX
+Rangos de potencia	+ 1000 Watts
+Potencia	1000W
+Certificación	80 Plus Gold
+Cables modulares	Sí
+Conectores PCI-Express	4
+Conectores Molex	4
+Conectores SATA	5
+Conectores 16-pin	1
+Conectores (6+2)-pin	4
+Conectores 6-pin	0
+Tamaño ventilador	
+Linea de 12V	
+PFC Activo	Si
+Dimensiones	150 x 150 x 86 mm

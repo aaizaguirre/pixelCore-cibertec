@@ -1,0 +1,36 @@
+Procesador AMD Ryzen 7 5700G 3.8GHz 8 Núcleos con Gráficos Radeon
+
+Precio: S/. 1 099.90
+Precio en oferta: S/. 849.90
+
+ESPECIFICACIONES:
+
+Plataforma: Procesador en caja
+Familia de productos: Procesadores AMD Ryzen™
+Línea de productos: Procesadores de escritorio AMD Ryzen™ 7 5700G-Series con Gráficos Radeon
+N° de núcleos de CPU: 8
+N° de subprocesos: 16
+Reloj de aumento máx. : Hasta 4.6 GHz
+Reloj base: 3.8 GHz
+Caché L2 total: 4MB
+Caché L3 total: 16MB
+TDP/TDP predeterminado: 65W
+TDP configurable de AMD (cTDP): 45-65W
+Tecnología de procesador para núcleos de CPU: FinFET de 7nm de TSMC
+Desbloqueado: Sí
+Paquete: AM4
+Solución térmica (PIB): Sigilo de espectro
+Temperatura máx.: 95°C
+*Compatible con SO
+Windows 10 - edición de 64 bits
+RHEL x86 edición de 64·bits
+Ubuntu x86 edición de 64·bits
+*El soporte del sistema operativo (SO) variará según el fabricante.
+Conectividad
+Versión de PCI Express: PCIe® 3.0
+Tipo de memoria: DDR4
+Canales de memoria: 2
+Velocidad máxima de memoria: Hasta 3200MHz
+Modelo de gráficos: Gráficos Radeon
+Número de núcleos de GPU: 8
+Frecuencia de gráficos: 2000 MHz

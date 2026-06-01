@@ -1,0 +1,26 @@
+Tarjeta de video GeForce RTX 5060 Ti 8GB Gigabyte Windforce
+
+Precio: S/. 2 499.00
+Precio en oferta: S/. 2 099.90
+
+ESPECIFICACIONES:
+
+GPU	NVIDIA
+Cantidad de núcleos	4608 Cuda Cores
+Velocidad GPU	2572 MHz
+Cantidad de memoria	8GB
+Tipo de memoria	GDDR7
+Velocidad memoria	28 Gbps
+Bus de datos	128 bit
+Puertos VGA	No incluye
+Puertos DVI	No incluye
+Puertos HDMI	1 x HDMI
+Puertos DisplayPort	3 x DisplayPort
+Uso de fuente de poder	Si
+Conectores 16-pin	0
+Conectores (6+2)-pin	1
+Conectores 6-pin	0
+Tamaño de tarjeta	210mm
+Uso de slots	2
+Consumo	Fuente recomendada de 650W
+Dimensiones	L=208 W=120 H=40 mm

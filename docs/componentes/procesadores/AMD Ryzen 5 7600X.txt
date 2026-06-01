@@ -1,0 +1,39 @@
+Procesador AMD Ryzen 5 7600X 4.7GHz 6 Núcleos sin disipador incluido
+
+Precio: S/. 1 249.00
+Precio en oferta: S/. 949.90
+
+ESPECIFICACIONES:
+
+
+Plataforma: Computadora de escritorio
+Familia de productos: Procesadores AMD Ryzen™
+Línea de productos: Procesadores de escritorio AMD Ryzen™ 5
+N° de núcleos de CPU: 6
+N° de subprocesos: 12
+Reloj de aumento máx. : Hasta 5.3 GHz
+Reloj base: 4.7 GHz
+Caché L1 total: 384KB
+Caché L2 total: 6MB
+Caché L3 total: 32MB
+TDP/TDP predeterminado: 105W
+Tecnología de procesador para núcleos de CPU: FinFET de 5nm de TSMC
+Desbloqueado: Sí
+Paquete: AM5
+Solución térmica (PIB): No incluido
+Temperatura máx.: 95°C
+*Compatible con SO
+Windows 11 - edición de 64 bits
+Windows 10 - edición de 64 bits
+RHEL x86 edición de 64·bits
+Ubuntu x86 edición de 64·bits
+*El soporte del sistema operativo (SO) variará según el fabricante.
+Conectividad
+Versión de PCI Express: PCIe® 5.0
+Tipo de memoria: DDR5
+Canales de memoria: 2
+Velocidad máxima de memoria: 2x1R DDR- 5200
+Modelo de gráficos: AMD Radeon Graphics
+Número de núcleos de GPU: 2
+Frecuencia de gráficos: 2200 MHz
+Tecnologías compatibles: Tecnologías AMD EXPO, Tecnologías AMD Ryzen

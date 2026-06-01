@@ -1,0 +1,21 @@
+Fuente de Poder 1100W CoolerMaster V Platinum V2 ATX 3.1
+
+Precio: S/. 1 199.00
+Precio en oferta: S/. 1 099.90
+
+ESPECIFICACIONES:
+Formato PSU	ATX
+Rangos de potencia	+ 1000 Watts
+Potencia	1100W
+Certificación	80 Plus Platinum
+Cables modulares	Full Modular
+Conectores PCI-Express	5
+Conectores Molex	4
+Conectores SATA	16
+Conectores 16-pin	1
+Conectores (6+2)-pin	5
+Conectores 6-pin	0
+Tamaño ventilador	135 mm
+Linea de 12V	Una sóla linea de 12V
+PFC Activo	Si
+Dimensiones	160 x 150 x 86 mm

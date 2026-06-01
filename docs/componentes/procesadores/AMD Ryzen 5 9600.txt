@@ -1,0 +1,150 @@
+Procesador AMD Ryzen 5 9600 3.8GHz 6 Núcleos
+
+Precio: S/. 1 299.00
+Precio en oferta: S/. 999.90
+
+ESPECIFICACIONES:
+6 núcleos y 12 hilos con arquitectura Zen 5
+
+Frecuencia base de 3,8 GHz y turbo de hasta 5,2 GHz
+
+32 MB de caché L3 para cargas de trabajo intensivas
+
+Desbloqueado para overclocking y compatible con AMD EXPO™
+
+Precision Boost Overdrive para aumentos automáticos de frecuencia
+
+28 carriles PCIe 5.0 nativos (24 utilizables) para GPUs y almacenamiento de alta velocidad
+
+Soporte de memoria DDR5-5600 y ECC
+
+Gráficos integrados AMD Radeon™ con 2 núcleos a 2 200 MHz
+
+TDP de 65 W y solución térmica AMD Wraith Stealth incluida
+
+ 
+
+Especificaciones técnicas
+Especificaciones generales
+
+Familia: Ryzen
+
+Serie: Ryzen 9000 Series
+
+Formato: Procesador para escritorio en caja
+
+Segmento de mercado: Enthusiast Desktop
+
+Nombre de código: Granite Ridge
+
+Socket: AM5
+
+Fecha de lanzamiento: 19 de febrero de 2025
+
+Disponibilidad regional: Global
+
+ 
+
+Rendimiento y arquitectura
+
+Núcleos: 6
+
+Hilos: 12
+
+Frecuencia base: 3,8 GHz
+
+Frecuencia turbo máx.: hasta 5,2 GHz
+
+Proceso CPU: TSMC 4 nm FinFET
+
+Proceso E/S: TSMC 6 nm FinFET
+
+ 
+
+Caché
+
+L1: 480 KB
+
+L2: 6 MB
+
+L3: 32 MB
+
+ 
+
+Overclocking y tecnologías AMD
+
+Desbloqueado para overclocking: Sí
+
+AMD EXPO™ Memory Overclocking Technology: Sí
+
+Precision Boost Overdrive: Sí
+
+Compensaciones de voltaje: Sí
+
+Soporte AMD Ryzen Master: Sí
+
+CPU Boost Technology: Precision Boost 2
+
+ 
+
+Instrucciones y extensiones
+
+Conjunto de instrucciones: x86-64
+
+Extensiones: AES, AMD-V, AVX, AVX2, AVX512, FMA3, MMX-plus, SHA, SSE, SSE2, SSE3, SSE4.1, SSE4.2, SSE4A, SSSE3
+
+ 
+
+Memoria
+
+Tipo: DDR5
+
+Canales: 2 (Dual Channel)
+
+Velocidad máx.: DDR5-5600
+
+Capacidad máx.: 256 GB
+
+ECC: Sí (requiere soporte de placa base)
+
+ 
+
+Conectividad y expansión
+
+PCIe versión: 5.0
+
+Carriles nativos: 28 (24 utilizables)
+
+USB 3.2 Gen 2 (10 Gbps): 4 puertos
+
+USB 2.0 (480 Mbps): 1 puerto
+
+NVMe: Boot, RAID 0/1/5/10
+
+DisplayPort Alternate Mode (USB-C): Sí
+
+ 
+
+Gráficos integrados
+
+Modelo: AMD Radeon™ Graphics (Raphael)
+
+Núcleos GPU: 2
+
+Frecuencia GPU (Turbo): 2 200 MHz
+
+ 
+
+Térmica y refrigeración
+
+TDP predeterminado: 65 W
+
+Tjmax: 95 °C
+
+Solución térmica incluida: AMD Wraith Stealth
+
+ 
+
+Otras especificaciones
+
+Chipsets compatibles: A620, X670E, X670, B650E, B650, X870E, X870

@@ -1,0 +1,32 @@
+Placa Madre MSI PRO B760M-E (mATX, DDR4, Intel LGA1700)
+
+Precio: S/. 449.90
+Precio en oferta: S/. 399.90
+
+ESPECIFICACIONES:
+Factor de Forma	Micro-ATX
+Socket	Socket LGA 1700
+Chipset	B760
+Tipo de memoria	DDR4 DIMM
+Slots de memoria	2
+Máximo de memoria	64GB
+Velocidad soportadas	
+Almacenamiento	M.2 PCIe Gen3,M.2 PCIe Gen4,M.2 SATA,SATA II,SATA III
+Puertos SATA II	4
+Puertos SATA III	4
+Puertos SAS	0
+Puertos M.2	2
+Puertos PCI-Express 16x	1
+Puertos PCI-Express 1x	1
+Puertos PCI	0
+Puertos USB 2.0 totales	8
+Puertos USB 3.0 totales	4
+Puertos PS/2	1
+Salidas VGA	1
+Salidas HDMI	1
+Salidas DVI	0
+Salidas DisplayPort	0
+Soporte SLI	No incluye
+Soporte CFX	No incluye
+Conectores para ventilador	2
+Cables SATA incluidos	2

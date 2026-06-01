@@ -1,0 +1,25 @@
+Tarjeta de video Radeon RX 9060 XT 16GB Gigabyte Gaming OC Ice
+
+Precio: S/. 2 899.00
+Precio en oferta: S/. 2 199.90
+
+ESPECIFICACIONES:
+GPU	AMD
+Cantidad de núcleos	2048 Stream Processors
+Velocidad GPU	Hasta 3320 MHz
+Cantidad de memoria	16GB
+Tipo de memoria	GDDR6
+Velocidad memoria	20 Gbps
+Bus de datos	128 bit
+Puertos VGA	No incluye
+Puertos DVI	No incluye
+Puertos HDMI	1 x HDMI
+Puertos DisplayPort	2 x DisplayPort
+Uso de fuente de poder	Si
+Conectores 16-pin	0
+Conectores (6+2)-pin	1
+Conectores 6-pin	0
+Tamaño de tarjeta	285mm
+Uso de slots	2
+Consumo	Fuente recomendada de 450W
+Dimensiones	281 x 118 x 40 mm

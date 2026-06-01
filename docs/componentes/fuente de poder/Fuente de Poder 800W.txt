@@ -1,0 +1,22 @@
+Spektra - Fuente de Poder 800W
+
+Precio: S/. 249.00
+Precio en oferta: S/. 199.90
+
+ESPECIFICACIONES:
+
+Formato PSU	ATX
+Rangos de potencia	800-899 Watts
+Potencia	800 Watts
+Certificación	No certificada
+Cables modulares	No incluye
+Conectores PCI-Express	2
+Conectores Molex	6
+Conectores SATA	6
+Conectores 16-pin	0
+Conectores (6+2)-pin	2
+Conectores 6-pin	0
+Tamaño ventilador	140mm
+Linea de 12V	Multi líneas de 12V
+PFC Activo	No incluye
+Dimensiones	150 x 86 x 150 mm
