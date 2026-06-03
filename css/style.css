@@ -90,13 +90,13 @@ header{
     line-height: 1.5;
 }
 
-.servicios{
+.armado-pc{
     margin: 20px auto 20px auto;
     width: 80%;
     align-items: start;
 }
 
-.servicios-card{
+.armado-pc-card{
     display: flex;
     flex-direction: row;
     align-items: center;
