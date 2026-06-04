@@ -7,149 +7,238 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
 <body>
+    
+    <!-- ========== HEADER ========== -->
+
     <header>
-        <img id = "logo"src="../imagenes/logo-pixelCore.png" alt="Logo de PixelCore">
+        <img class = "logo-img" src = "../imagenes/logo-pixelCore.png" alt="Logo de PixelCore">
         <div class = "logo-info">
-            <img id = "nombre-logo" src="../imagenes/nombre-pixelCore.png" alt="Nombre de PixelCore">
-            <p id="descripcion-logo">Tecnología a tu medida</p>
+            <img class = "logo-nombre" src = "../imagenes/nombre-pixelCore.png" alt="PixelCore">
+            <p class = "logo-slogan">Tecnología a tu medida</p>
         </div>
-        <nav class = "navbar">
+        <nav class = "navbar" aria-label = "Navegación principal">
             <ul>
-                <li>INICIO</li>
-                <li>TIENDA</li>
-                <li>SERVICIOS</li>
-                <li>ARMA TU PC</li>
-                <li>NOSOTROS</li>
-                <li>CONTACTO</li>
-                <li>CARRITO DE COMPRAS</li>
+                <li><a href = "#">INICIO</a></li>
+                <li><a href = "#">TIENDA</a></li>
+                <li><a href = "#">SERVICIOS</a></li>
+                <li><a href = "#">ARMA TU PC</a></li>
+                <li><a href = "#">NOSOTROS</a></li>
+                <li><a href = "#">CONTACTO</a></li>
+                <li><a href = "#">CARRITO DE COMPRAS</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- ========== MAIN ========== -->
+
     <main>
-        <section class="banner">
-            <img src="../imagenes/banner_laptop.png" alt="banner de laptops">
+
+        <!-- Banner -->
+        <section class = "banner">
+            <img src = "../imagenes/banner_laptop.png" alt = "banner de laptops">
         </section>
-        <section class="productos">
-            <figure class= "productos-card" id= "laptops">
-                <img class = "img-card" src="../imagenes/card-laptop.png" alt="Laptops">
-                <figcaption class = "text-card">
+
+        <!-- Productos -->
+        <section class = "productos">
+
+            <div class = "productos-card">
+                <img class = "producto-img" src = "../imagenes/card-laptop.png" alt = "Laptops">
+                <div class = "producto-texto">
                     <h2>LAPTOPS</h2>
                     <p>Ligeras. Potentes. Preparadas para todo.</p>
                     <p>Encuentra laptops para estudiar, trabajar, crear y jugar.</p>
-                </figcaption>
-            </figure>
-            <figure class= "productos-card" id= "pcs">
-                <figcaption class = "text-card">
+                </div>
+            </div>
+
+            <div class = "productos-card">
+                <div class = "producto-texto">
                     <h2>PC'S DE ESCRITORIO</h2>
                     <p>Máximo rendimiento. Mínimas limitaciones.</p>
                     <p>Equipos diseñados para quienes exigen más de su computadora.</p>
-                </figcaption>
-                <img class = "img-card" src="../imagenes/card-pc.png" alt="PC's">
-            </figure>
-            <figure class= "productos-card" id= "componentes">
-                <img class = "img-card" src="../imagenes/card-componentes.png" alt="componentes de PC">
-                <figcaption class = "text-card">
+                </div>
+                <img class = "producto-img" src="../imagenes/card-pc.png" alt="PC's">
+            </div>
+
+            <div class = "productos-card">
+                <img class = "producto-img" src="../imagenes/card-componentes.png" alt="componentes de PC">
+                <div class = "producto-texto">
                     <h2>COMPONENTES DE PC</h2>
                     <p>El poder está en cada pieza.</p>
                     <p>Descubre hardware de última generación para llevar tu PC al siguiente nivel.</p>
-                </figcaption>
-            </figure>
-            <figure class= "productos-card" id= "perifericos">
-                <figcaption class = "text-card">
+                </div>
+            </div>
+
+            <div class = "productos-card">
+                <div class = "producto-texto">
                     <h2>PERIFÉRICOS</h2>
                     <p>Mejora tu experiencia de usuario.</p>
                     <p>Descubre los mejores accesorios para complementar tu setup.</p>
-                </figcaption>
-                <img class = "img-card" src="../imagenes/card-perifericos.png" alt="Periféricos de PC">
-            </figure>
+                </div>
+                <img class = "producto-img" src="../imagenes/card-perifericos.png" alt="Periféricos de PC">
+            </div>
+
         </section>
+
         <hr>
-        <section class = "armado-pc">
+
+        <!-- Armado de PC -->
+        <section class = "armado-pc seccion-interior">
+
             <p>¿No sabes por dónde empezar?</p>
             <h2>ARMA TU PC CON NOSOTROS</h2>
-            <figure class = "armado-pc-card">
+            <div class = "armado-pc-contenido">
                 <iframe 
-                    width="1080" height="480"
-                    src="https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
-                    title="YouTube video player" 
-                    frameborder="1" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    width = "1080" height = "480"
+                    src = "https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
+                    title = "Video: Cómo armar tu PC con PixelCore" 
+                    frameborder = "1" 
+                    allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy = "strict-origin-when-cross-origin" 
+                    allowfullscreen>
                 </iframe>
-                <figcaption>Diseñamos una PC a la medida de tus necesidades y presupuesto.<br> Ya sea para gaming, diseño, programación, edición de video o trabajo profesional, te ayudamos a seleccionar cada componente para obtener el mejor rendimiento posible.</figcaption>
-            </figure>
+                <p>Diseñamos una PC a la medida de tus necesidades y presupuesto.<br> 
+                    Ya sea para gaming, diseño, programación, edición de video o trabajo profesional, te ayudamos a seleccionar cada componente para obtener el mejor rendimiento posible.
+                </p>
+            </div>
+
         </section>
-        <section class = "servicios">
+
+        <!-- Servicios -->
+        <section class = "servicios seccion-interior">
+
             <h2>NUESTROS SERVICIOS</h2>
-            <div id = "contenedor-servicios-card">
-                <figure class = "servicios-card">
-                    <img class = "img-card" src="../imagenes/card-servicios-mantenimiento.jpg" alt="Mantenimiento de PC">
-                    <figcaption class = "text-card">
+            <div class = "servicios-grid">
+
+                <div class = "servicios-card">
+                    <img src = "../imagenes/card-servicios-mantenimiento.jpg" alt = "Mantenimiento de equipos">
+                    <div class = "servicios-texto">
                         <h3>MANTENIMIENTO DE EQUIPOS</h3>
                         <p>Ofrecemos servicios de mantenimiento preventivo y correctivo para garantizar el óptimo funcionamiento de tus equipos.</p>
-                    </figcaption>
-                </figure>
-                <figure class = "servicios-card">
-                    <img class = "img-card" src="../imagenes/card-servicios-instalacion.webp" alt="Instalación de software">
-                    <figcaption class = "text-card">
+                    </div>
+                </div>
+
+                <div class = "servicios-card">
+                    <img src = "../imagenes/card-servicios-instalacion.webp" alt = "Instalación de software">
+                    <div class = "servicios-texto">
                         <h3>INSTALACIÓN DE SOFTWARE</h3>
                         <p>Instalamos software y configuramos tu sistema para que esté listo para usar.</p>
-                    </figcaption>
-                </figure>
-                <figure class = "servicios-card">
-                    <img class = "img-card" src="../imagenes/card-servicios-reparacion.jpg" alt="Reparación de equipos">
-                    <figcaption class = "text-card">
+                    </div>
+                </div>
+
+                <div class = "servicios-card">
+                    <img src = "../imagenes/card-servicios-reparacion.jpg" alt = "Reparación de equipos">
+                    <div class = "servicios-texto">
                         <h3>DIAGNÓSTICO Y REPARACIÓN</h3>
                         <p>Realizamos diagnósticos precisos y reparaciones para resolver cualquier problema técnico en tus equipos.</p>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
+
             </div>
+
         </section>
-        <section class = "testimonios">
+
+        <!-- Testimonios -->
+        <section class = "testimonios seccion-interior">
+
             <h2>Testimonios</h2>
             <p>De nuestros clientes</p>
-            <div id = "contenedor-testimonios-card">
-                <figure class="testimonio-card">
-                    <img class = "img-card" src="../imagenes/persona-1.jpg" alt="Foto del cliente">
-                    <figcaption class="text-card">
-                        <h4 class="nombre">María Gómez</h4>
-                        <p class="cargo">CEO de TechSolutions</p>
-                        <div class="estrellas">★★★★★</div>
-                        <p class="texto-testimonio">"El servicio fue excepcional, superaron todas nuestras expectativas y el equipo de soporte siempre estuvo disponible cuando lo necesitamos. Totalmente recomendados."</p>
-                    </figcaption>
-                </figure>
-                <figure class="testimonio-card">
-                    <img class = "img-card" src="../imagenes/persona-2.jpg" alt="Foto del cliente">
-                    <figcaption class="text-card">
-                        <h4 class="nombre">Juan Giménez</h4>
-                        <p class="cargo">Supervisor de ventas de NetSecurity</p>
-                        <div class="estrellas">★★★★★</div>
-                        <p class="texto-testimonio">"Atención rápida, trato amable y equipos con garantía."</p>
-                    </figcaption>
-                </figure>
-                <figure class="testimonio-card">
-                    <img class = "img-card" src="../imagenes/persona-3.jpg" alt="Foto del cliente">
-                    <figcaption class="text-card">
-                        <h4 class="nombre">Roberto Sánchez</h4>
-                        <p class="cargo">Desarrollador de software</p>
-                        <div class="estrellas">★★★★★</div>
-                        <p class="texto-testimonio">"Cuentan con equipos de última tecnología y sus servicios son muy completos. Altamente recomendado."</p>
-                    </figcaption>
-                </figure>
-                <figure class="testimonio-card">
-                    <img class = "img-card" src="../imagenes/persona-4.jpg" alt="Foto del cliente">
-                    <figcaption class="text-card">
-                        <h4 class="nombre">Manuel Suárez</h4>
-                        <p class="cargo">Gamer profesional</p>
-                        <div class="estrellas">★★★★★</div>
-                        <p class="texto-testimonio">"Su servicio de Armado de PC's es muy completo. Cuentan con los últimos componentes y a buen precio."</p>
-                    </figcaption>
-                </figure>
+
+            <div class = "testimonios-grid">
+
+                <article class = "testimonio-card">
+                    <img src = "../imagenes/persona-1.jpg" alt = "Foto de María Gómez">
+                    <h4>María Gómez</h4>
+                    <p class = "testimonio-cargo">CEO de TechSolutions</p>
+                    <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                    <p>"El servicio fue excepcional, superaron todas nuestras expectativas y el equipo de soporte siempre estuvo disponible cuando lo necesitamos. Totalmente recomendados."</p>
+                </article>
+
+                <article class = "testimonio-card">
+                    <img src = "../imagenes/persona-2.jpg" alt = "Foto de Juan Giménez">
+                    <h4>Juan Giménez</h4>
+                    <p class = "testimonio-cargo">Supervisor de ventas de NetSecurity</p>
+                    <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                    <p>"Atención rápida, trato amable y equipos con garantía."</p>
+                </article>
+
+                <article class = "testimonio-card">
+                    <img src = "../imagenes/persona-3.jpg" alt = "Foto de Roberto Sánchez">
+                    <h4>Roberto Sánchez</h4>
+                    <p class = "testimonio-cargo">Desarrollador de software</p>
+                    <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                    <p>"Cuentan con equipos de última tecnología y sus servicios son muy completos. Altamente recomendado."</p>
+                </article>
+
+                <article class = "testimonio-card">
+                    <img src = "../imagenes/persona-4.jpg" alt = "Foto de Manuel Suárez">
+                    <h4>Manuel Suárez</h4>
+                    <p class = "testimonio-cargo">Gamer profesional</p>
+                    <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                    <p>"Su servicio de Armado de PC's es muy completo. Cuentan con los últimos componentes y a buen precio."</p>
+                </article>
+
             </div>
+
         </section>
+
     </main>
-    <footer></footer>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+
+        <div class = "footer-marca">
+            <img class = "logo-img" src = "../imagenes/logo-pixelCore.png" alt = "Logo de PixelCore">
+            <div class = "logo-info">
+                <img class = "logo-nombre" src = "../imagenes/nombre-pixelCore.png" alt = "PixelCore">
+                <p class = "logo-slogan">Tecnología a tu medida</p>
+            </div>
+        </div>
+
+        <div class = "footer-direccion">
+            <h3>Dirección</h3>
+            <p>Pasaje Velarde 188 int. 108, Cercado de Lima.</p>
+            <p><strong>Horario: </strong>9:00 AM - 6:00 PM</p>
+        </div>
+
+        <div class = "footer-contacto">
+            <h3>Contacto</h3>
+            <a  href = "https://www.whatsapp.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Contactar por Whatsapp">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <span>+51 980 168 985</span>
+            </a>
+            <a href = "https://www.gmail.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Contactar por correo electrónico">
+                <i class="fa-solid fa-envelope"></i>
+                <span>pixelcore@gmail.com</span>
+            </a>
+        </div>
+
+        <div class = "footer-redes">
+            <h3>Síguenos:</h3>
+
+            <div class = "redes-iconos">
+                <a class = "social-button facebook" href = "https://www.facebook.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Facebook">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a class = "social-button twitter" href = "https://www.twitter.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Twitter">
+                    <i class = "fab fa-twitter" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button tiktok" href = "https://www.tiktok.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de TikTok">
+                    <i class = "fab fa-tiktok" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button youtube" href = "https://www.youtube.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar canal de YouTube">
+                    <i class = "fab fa-youtube" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button instagram" href = "https://www.instagram.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Instagram">
+                    <i class = "fab fa-instagram" aria-hidden = "true"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 </html>

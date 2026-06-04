@@ -1,9 +1,8 @@
-*{
+/* ---------- Reset y base ---------- */
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-}
-
-hr{
-    width: 80%;
 }
 
 body{
@@ -13,36 +12,45 @@ body{
     color: white;
 }
 
-header{
-    display: flex; 
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
+hr{
+    width: 80%;
+}
+
+/* ---------- Parte reutilizable ---------- */
+.seccion-interior{
+    width: 80%;
+    margin: 20px auto;
     padding: 10px;
 }
-#logo{
-    width: 5%;
-    min-width: 50px;
+
+.logo-img{
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.logo-nombre{
+    width: 150px;
 }
 
 .logo-info{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 4px;
 }
 
-#nombre-logo{
-    width: 15vw;
-    min-width: 150px;
-}
-
-#descripcion-logo{
+.logo-slogan{
     margin: 0;
     font-size: 0.9em;
     padding-left: 10px;
-    margin-top: -10px;
-    text-align: start;
+}
+
+/* ---------- Header ---------- */
+header{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
 .navbar{
@@ -50,17 +58,28 @@ header{
     padding: 10px;
 }
 
-.navbar > ul{
+.navbar ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px; 
     list-style: none;
-    flex-wrap: wrap;
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.navbar ul li a:hover{
+    opacity: 0.7;
+}
+
+/* ---------- Banner ---------- */
 .banner{
     display: flex;
     justify-content: center;
@@ -71,12 +90,13 @@ header{
     width: 70%;
 }
 
+/* ---------- Productos ---------- */
 .productos{
     display:flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
+    gap: 20px;
 }
 
 .productos-card {
@@ -88,42 +108,34 @@ header{
     gap: 50px;
 }
 
-.img-card{
+.producto-img{
     width: 30%;
     border-radius: 20px;
 }
 
-.text-card{
+.producto-texto{
     text-align: center;
     line-height: 1.5;
 }
 
-.armado-pc{
-    margin: 20px auto 20px auto;
-    width: 80%;
-    align-items: center;
-}
-
-.armado-pc-card{
+/* ---------- Armado de PC ---------- */
+.armado-pc-contenido{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 0 0 0;
     gap: 50px;
 }
 
+/* ---------- Servicios ---------- */
 .servicios{
-    margin: 20px auto 20px auto;
-    padding: 10px;
-    width: 80%;
-    align-items: center;
     border: solid white 2px;
     border-radius: 20px;
 }
-#contenedor-servicios-card{
+
+.servicios-grid{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
     justify-content: space-around;
 }
@@ -131,40 +143,188 @@ header{
 .servicios-card{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    margin: 0 0 0 0;
+    flex: 1;
 }
 
-.servicios-card > .img-card{
+.servicios-card img{
     width: 100%;
     max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
-.testimonios{
-    margin: 20px auto 20px auto;
-    padding: 10px;
-    width: 80%;
-    align-items: center;
+.servicios-texto{
+    text-align: center;
+    line-height: 1.5;
 }
 
-#contenedor-testimonios-card{
+/* ---------- Testimonios ---------- */
+.testimonios-grid{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     gap: 10px;
 }
 
 .testimonio-card{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    width: 30%;
     align-items: center;
-    border: solid 2px white;
+    padding: 10px;
+    flex: 1;
+    border: solid white 2px;
     border-radius: 20px;
+    text-align: center;
+    line-height: 1.5;
 }
 
-.testimonio-card > .img-card{
+.testimonio-card img{
     width: 50%;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.testimonio-cargo{
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin: 2px 0 6px;
+}
+
+/* ---------- Footer ---------- */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-marca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contacto a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.fa-square-whatsapp { 
+    color: rgb(99, 230, 190);
+}
+
+.footer-contacto a:hover{
+    opacity: 0.75;
+}
+
+.footer-contacto i{
+    font-size: 1.4em;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-redes h3{
+    margin: 0;
+}
+
+.redes-iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 0.125rem solid transparent;
+    border-radius: 50%;
+    color: #fefefe;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-button:hover,
+.social-button:focus{
+    transform: rotate(360deg);
+}
+
+.social-button:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.social-button.facebook { 
+    background: #3b5998; 
+}
+
+.social-button.twitter{ 
+    background: #55acee; 
+}
+
+.social-button.tiktok{ 
+    background: #000000; 
+}
+
+.social-button.youtube{ 
+    background: #bb0000; 
+}
+.social-button.instagram{ 
+    background: #125688; 
+}
+
+.social-button.facebook:hover, .social-button.facebook:focus{ 
+    color: #3b5998; 
+    background: #fefefe; 
+    border-color: #3b5998;
+}
+
+.social-button.twitter:hover, .social-button.twitter:focus{ 
+    color: #55acee; 
+    background: #fefefe; 
+    border-color: #55acee; 
+}
+
+.social-button.tiktok:hover, .social-button.tiktok:focus{ 
+    color: #000000; 
+    background: #fefefe; 
+    border-color: #000000; 
+}
+
+.social-button.youtube:hover, .social-button.youtube:focus{ 
+    color: #bb0000; 
+    background: #fefefe; 
+    border-color: #bb0000; 
+}
+
+.social-button.instagram:hover, .social-button.instagram:focus{ 
+    color: #125688; 
+    background: #fefefe; 
+    border-color: #125688; 
 }
