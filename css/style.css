@@ -51,6 +51,11 @@ header{
     align-items: center;
     gap: 10px;
     padding: 10px;
+    background-color: #050505;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .navbar{
@@ -91,6 +96,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    margin: 50px auto;
 }
 
 .banner img{
@@ -114,13 +121,15 @@ header{
     justify-content: space-around;
     width: 80%;
     gap: 50px;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
 .producto-img{
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .producto-texto{
@@ -138,7 +147,6 @@ header{
 
 /* ---------- Servicios ---------- */
 .servicios{
-    border: solid white 2px;
     border-radius: 20px;
 }
 
@@ -154,6 +162,10 @@ header{
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding: 10px;
+    height: 480px;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
 .servicios-card img{
