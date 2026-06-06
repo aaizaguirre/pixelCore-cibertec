@@ -7,7 +7,7 @@
 
 body{
     margin: 0;
-    background-color: #050505;
+    background-color: #000000;
     font-family: 'Space Grotesk', sans-serif;
     color: white;
 }
@@ -84,6 +84,7 @@ header{
 
 .navbar ul li a:hover{
     background-color: #222;
+    color: #ece81a;
 }
 
 .navbar ul li a.active{
@@ -93,6 +94,7 @@ header{
 
 /* ---------- Banner ---------- */
 .banner{
+    background-color: #0c0d0d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,14 +117,18 @@ header{
 }
 
 .productos-card {
+    background-color: #0c0d0d;
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 80%;
-    gap: 50px;
-    border: solid 2px;
+    padding: 10px;
+    gap: 5px;
+    border: solid #0c0d0d 2px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .producto-img{
@@ -130,11 +136,24 @@ header{
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.productos-card:hover .producto-img{
+    transform: scale(1.08);
 }
 
 .producto-texto{
     text-align: center;
     line-height: 1.5;
+}
+
+.producto-texto h2{
+    transition: color 0.3s ease;
+}
+
+.productos-card:hover .producto-texto h2{
+    color: #ece81a;
 }
 
 /* ---------- Armado de PC ---------- */
@@ -159,12 +178,13 @@ header{
 }
 
 .servicios-card{
+    background-color: #0c0d0d;
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 10px;
     height: 480px;
-    border: solid 2px;
+    border: solid #0c0d0d 2px;
     border-radius: 10px;
 }
 
@@ -189,12 +209,13 @@ header{
 }
 
 .testimonio-card{
+    background-color: #0c0d0d;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
     flex: 1;
-    border: solid white 2px;
+    border: solid #0c0d0d 2px;
     border-radius: 20px;
     text-align: center;
     line-height: 1.5;
