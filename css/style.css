@@ -129,6 +129,11 @@ header{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    transition: transform 0.4 ease;
+}
+
+.productos-card:hover{
+    border: solid #222 2px;
 }
 
 .producto-img{
