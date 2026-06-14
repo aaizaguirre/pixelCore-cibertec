@@ -13,7 +13,7 @@ function actualizarCarrusel(){
 
 function siguienteImagen(){
     currentIndex++;
-
+   
     if(currentIndex >= imagenes.length){
         currentIndex = 0;
     }
@@ -21,17 +21,7 @@ function siguienteImagen(){
     actualizarCarrusel();
 }
 
-btnNext.addEventListener("click", () =>{
-    currentIndex++;
-
-    if(currentIndex >= imagenes.length){
-        currentIndex = 0;
-    }
-
-    actualizarCarrusel();
-});
-
-btnPrev.addEventListener("click", () => {
+function anteriorImagen(){
     currentIndex--;
 
     if(currentIndex < 0){
@@ -39,7 +29,11 @@ btnPrev.addEventListener("click", () => {
     }
 
     actualizarCarrusel();
-});
+}
 
-window.addEventListener("resize", actualizarCarrusel());
+btnNext.addEventListener("click", siguienteImagen);
+btnPrev.addEventListener("click", anteriorImagen);
+
+window.addEventListener("resize", actualizarCarrusel);
+
 setInterval(siguienteImagen, 10000);

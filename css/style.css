@@ -14,10 +14,6 @@ body{
     color: white;
 }
 
-hr{
-    width: 80%;
-}
-
 /* ---------- Parte reutilizable ---------- */
 .seccion-interior{
     width: 80%;
@@ -47,7 +43,11 @@ hr{
 }
 
 h2{
-    margin: 10px auto;
+    margin: 20px auto;
+}
+
+h3{
+    margin: 20px auto;
 }
 
 /* ---------- Header ---------- */
@@ -58,7 +58,6 @@ header{
     gap: 10px;
     padding: 10px;
     background-color: #050505;
-    background-attachment: fixed;
     position: fixed;
     width: 100%;
     top: 0;
@@ -177,7 +176,7 @@ header{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    transition: transform 0.4 ease;
+    transition: transform 0.4s ease;
 }
 
 .productos-card:hover{
@@ -239,7 +238,7 @@ header{
     height: 480px;
     border: solid #0c0d0d 2px;
     border-radius: 10px;
-    transition: transform 0.4 ease;
+    transition: transform 0.4s ease;
 }
 
 .servicios-card:hover{
