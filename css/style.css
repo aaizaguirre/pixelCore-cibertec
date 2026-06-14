@@ -272,11 +272,34 @@ header{
 }
 
 /* ---------- Testimonios ---------- */
-.testimonios-grid{
+.testimonios-slider{
     display: flex;
     flex-direction: row;
     align-items: stretch;
     gap: 10px;
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+
+.testimonios-track{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scrollTestimonios 30s linear infinite;
+}
+
+.testimonios-track:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scrollTestimonios{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
 }
 
 .testimonio-card{
@@ -290,6 +313,12 @@ header{
     border-radius: 20px;
     text-align: center;
     line-height: 1.5;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.testimonio-card:hover{
+    transform: scale(1.02);
 }
 
 .testimonio-card img{
