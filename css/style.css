@@ -2,6 +2,8 @@
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -44,6 +46,10 @@ hr{
     padding-left: 10px;
 }
 
+h2{
+    margin: 10px auto;
+}
+
 /* ---------- Header ---------- */
 header{
     display: flex; 
@@ -56,6 +62,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
 }
 
 .navbar{
@@ -93,17 +100,58 @@ header{
 }
 
 /* ---------- Banner ---------- */
-.banner{
+.carrusel{
     background-color: #0c0d0d;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
-    margin: 50px auto;
+    margin: 100px auto 50px;
+    overflow: hidden;
+    width: 80%;
+    position: relative;
 }
 
-.banner img{
-    width: 70%;
+.carrusel-viewport{
+    overflow: hidden;
+}
+
+.carrusel-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-contenedor img{
+    width: 100%;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    background: #0c0d0d;
+    opacity: 0.7;
+    color: white;
+    z-index: 10;
+}
+
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
 }
 
 /* ---------- Productos ---------- */
