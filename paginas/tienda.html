@@ -6,13 +6,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styleIndex.css">
+    <link rel="stylesheet" href="../css/styleTienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <script src = "../scriptIndex.js" defer></script>
+    <script src = "../scriptTienda.js" defer></script>
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
 <body>
-    
     <!-- ========== HEADER ========== -->
 
     <header>
@@ -23,8 +22,8 @@
         </div>
         <nav class = "navbar" aria-label = "Navegación principal">
             <ul>
-                <li><a href = "#" class = "active">INICIO</a></li>
-                <li><a href = "./tienda.html">TIENDA</a></li>
+                <li><a href = "./index.html">INICIO</a></li>
+                <li><a href = "#" class = "active">TIENDA</a></li>
                 <li><a href = "#">SERVICIOS</a></li>
                 <li><a href = "#">ARMA TU PC</a></li>
                 <li><a href = "#">NOSOTROS</a></li>
@@ -33,7 +32,6 @@
             </ul>
         </nav>
     </header>
-
     <!-- ========== MAIN ========== -->
 
     <main>
@@ -56,55 +54,78 @@
             </button>
         </section>
 
-        <!-- Productos -->
-        <section class = "productos">
+        <!-- Tarjetas por sección -->
+            <section class = "productos">
 
-            <div class = "productos-card">
-                <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops">
-                <div class = "producto-texto">
-                    <h2>LAPTOPS</h2>
-                    <p>Ligeras. Potentes. Preparadas para todo.</p>
-                    <p>Encuentra laptops para estudiar, trabajar, crear y jugar.</p>
+                <div class = "productos-card">
+                    <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops">
+                    <div class = "producto-texto">
+                        <h2>LAPTOPS</h2>
+                        <p>24 productos</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class = "productos-card">
-                <img class = "producto-img" src="../imagenes/tarjetas/productos/card-pc.png" alt="PC's">
-                <div class = "producto-texto">
-                    <h2>PC'S DE ESCRITORIO</h2>
-                    <p>Máximo rendimiento. Mínimas limitaciones.</p>
-                    <p>Equipos diseñados para quienes exigen más de su computadora.</p>
+                <div class = "productos-card">
+                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-pc.png" alt="PC's">
+                    <div class = "producto-texto">
+                        <h2>PC'S DE ESCRITORIO</h2>
+                        <p>12 productos</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class = "productos-card">
-                <img class = "producto-img" src="../imagenes/tarjetas/productos/card-componentes.png" alt="componentes de PC">
-                <div class = "producto-texto">
-                    <h2>COMPONENTES DE PC</h2>
-                    <p>El poder está en cada pieza.</p>
-                    <p>Descubre hardware de última generación para llevar tu PC al siguiente nivel.</p>
+                <div class = "productos-card">
+                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-componentes.png" alt="componentes de PC">
+                    <div class = "producto-texto">
+                        <h2>COMPONENTES DE PC</h2>
+                        <p>48 productos</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class = "productos-card">
-                <img class = "producto-img" src="../imagenes/tarjetas/productos/card-perifericos.png" alt="Periféricos de PC">
-                <div class = "producto-texto">
-                    <h2>PERIFÉRICOS</h2>
-                    <p>Mejora tu experiencia de usuario.</p>
-                    <p>Descubre los mejores accesorios para complementar tu setup.</p>
-                </div>
-            </div>
+                <div class = "productos-card">
+                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-perifericos.png" alt="Periféricos de PC">
+                    <div class = "producto-texto">
+                        <h2>PERIFÉRICOS</h2>
+                        <p>24 productos</p>
+                    </div>
 
-        </section>
+            </section>
 
-        <!-- Armado de PC -->
-        <section class = "armado-pc seccion-interior">
+            <!-- Buscar -->  
+            <search>
+                <form action = "/buscar" method = "get">
+                    <input type = "search" placeholder = " Buscar">
+                    <button type = "submit"><strong>BUSCAR</strong></button>
+                </form>
+            </search>
 
-            <p>¿No sabes por dónde empezar?</p>
-            <h2>ARMA TU PC CON NOSOTROS</h2>
-            <div class = "armado-pc-contenido">
+        <!-- Contenedor principal -->
+
+        <div class = "contenedor-principal">
+
+            <!-- Categorías -->  
+            <aside>
+                <h2>Categoría</h2>
+                <button class = "active">MÁS VENDIDOS</button>
+                <button>MÁS NUEVOS</button>
+                <button>OFERTAS</button>
+            </aside>
+
+            <!-- Equipos-->  
+            <section class = "equipos">
+                <figure>a</figure>
+                <figure>a</figure>
+                <figure>a</figure>
+                <figure>a</figure>
+                <figure>a</figure>
+                <figure>a</figure>
+            </section>
+
+        </div>
+
+         <!-- Armado de PC -->
+        <section class = "armado-pc seccion interior">
                 <iframe 
-                    width = "1200" height = "360"
+                    width = "720" height = "360"
                     src = "https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
                     title = "Video: Cómo armar tu PC con PixelCore" 
                     frameborder = "0" 
@@ -112,47 +133,13 @@
                     referrerpolicy = "strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
-                <p>Diseñamos una PC a la medida de tus necesidades y presupuesto.<br> 
-                <br> 
-                    Ya sea para gaming, diseño, programación, edición de video o trabajo profesional, te ayudamos a seleccionar cada componente para obtener el mejor rendimiento posible.
-                </p>
-            </div>
-
-        </section>
-
-        <!-- Servicios -->
-        <section class = "servicios seccion-interior">
-
-            <h2>NUESTROS SERVICIOS</h2>
-            <div class = "servicios-grid">
-
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-mantenimiento.jpg" alt = "Mantenimiento de equipos">
-                    <div class = "servicios-texto">
-                        <h3>MANTENIMIENTO DE EQUIPOS</h3>
-                        <p>Ofrecemos servicios de mantenimiento preventivo y correctivo para garantizar el óptimo funcionamiento de tus equipos.</p>
-                    </div>
+                <div class = "armado-pc-texto">
+                    <h3>¿Quieres una PC a tu medida?</h3>
+                    <p>Elige tus componentes y nosotros la armamos.</p>
+                    <p>Garantía incluída.</p>   
                 </div>
-
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-instalacion.webp" alt = "Instalación de software">
-                    <div class = "servicios-texto">
-                        <h3>INSTALACIÓN DE SOFTWARE</h3>
-                        <p>Instalamos software y configuramos tu sistema para que esté listo para usar.</p>
-                    </div>
-                </div>
-
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-reparacion.jpg" alt = "Reparación de equipos">
-                    <div class = "servicios-texto">
-                        <h3>DIAGNÓSTICO Y REPARACIÓN</h3>
-                        <p>Realizamos diagnósticos precisos y reparaciones para resolver cualquier problema técnico en tus equipos.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
+                <button>ARMA TU PC <i class="fas fa-arrow-right"></i></button>
+            </section>
 
         <!-- Testimonios -->
         <section class = "testimonios seccion-interior">

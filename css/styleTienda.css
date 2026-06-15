@@ -50,6 +50,11 @@ h3{
     margin: 20px auto;
 }
 
+button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
 /* ---------- Header ---------- */
 header{
     display: flex; 
@@ -153,6 +158,13 @@ header{
     right: 10px;
 }
 
+/* ---------- Contenedor principal ---------- */
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
 /* ---------- Productos ---------- */
 .productos{
     display:flex; 
@@ -208,65 +220,119 @@ header{
     color: #ece81a;
 }
 
+/* ---------- Buscar ---------- */
+search{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 40px auto;
+}
+
+search form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+search input{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+search button{
+    width: 10%;
+    border: #0c0d0d;
+    border-radius: 10px;
+    background-color: #0c0d0d;
+    color: white;
+}
+
+search button:hover{
+    background-color: #222;
+    border: solid #222;
+    color: #ece81a;
+}
+
+/* ---------- Categorías ---------- */
+aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+aside button{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background-color: #0c0d0d;
+    border: solid #222;
+    border-radius: 5px;
+    color: white;
+}
+
+aside button.active{
+    color:  #ece81a;
+    background-color: #222;
+}
+
+aside button:hover{
+    background-color: #222;
+    color: #ece81a;
+}
+
+/* ---------- Equipos ---------- */
+.equipos{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.equipos figure{
+    background-color: red;
+    margin: 20px;
+    width: 30%;
+}
+
 /* ---------- Armado de PC ---------- */
-.armado-pc-contenido{
+.armado-pc{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 80%;
+    margin: auto;
     gap: 50px;
 }
 
-/* ---------- Servicios ---------- */
-.servicios{
-    border-radius: 20px;
+.armado-pc-texto{
+    width: 80%;
 }
 
-.servicios-grid{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 50px;
-    justify-content: space-around;
+.armado-pc h3{
+    font-size: 42px;
 }
 
-.servicios-card{
-    background-color: #0c0d0d;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 10px;
-    height: 480px;
-    border: solid #0c0d0d 2px;
+.armado-pc button{
+    width: 15%;
+    height: 42px;
+    border: #0c0d0d;
     border-radius: 10px;
-    transition: transform 0.4s ease;
+    background-color: #0c0d0d;
+    color: white;
 }
 
-.servicios-card:hover{
-    border: solid #222 2px;
-}
-
-.servicios-card img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-    transition: transform 0.4s ease;
-}
-
-.servicios-card:hover img{
-    transform: scale(1.02);
-}
-
-.servicios-texto{
-    text-align: center;
-    line-height: 1.5;
-}
-
-.servicios-texto h3{
-    transition: color 0.3s ease;
-}
-
-.servicios-card:hover .servicios-texto h3{
+.armado-pc button:hover{
+    background-color: #222;
+    border: solid #222;
     color: #ece81a;
 }
 

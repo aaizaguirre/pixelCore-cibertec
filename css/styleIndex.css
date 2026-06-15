@@ -1,0 +1,474 @@
+/* ---------- Reset y base ---------- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+
+/* ---------- Parte reutilizable ---------- */
+.seccion-interior{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.logo-img{
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.logo-nombre{
+    width: 150px;
+}
+
+.logo-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logo-slogan{
+    margin: 0;
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+h2{
+    margin: 20px auto;
+}
+
+h3{
+    margin: 20px auto;
+}
+
+/* ---------- Header ---------- */
+header{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #050505;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar{
+    margin-left: auto; 
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+    list-style: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.navbar ul li a:hover{
+    background-color: #222;
+    color: #ece81a;
+}
+
+.navbar ul li a.active{
+    background-color: #ffffff;
+    color: #050505;
+}
+
+/* ---------- Banner ---------- */
+.carrusel{
+    background-color: #0c0d0d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 100px auto 50px;
+    overflow: hidden;
+    width: 80%;
+    position: relative;
+}
+
+.carrusel-viewport{
+    overflow: hidden;
+}
+
+.carrusel-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-contenedor img{
+    width: 100%;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    background: #0c0d0d;
+    opacity: 0.7;
+    color: white;
+    z-index: 10;
+}
+
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+
+/* ---------- Productos ---------- */
+.productos{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.productos-card {
+    background-color: #0c0d0d;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    padding: 10px;
+    gap: 5px;
+    border: solid #0c0d0d 2px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.productos-card:hover{
+    border: solid #222 2px;
+}
+
+.producto-img{
+    width: 20%;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.productos-card:hover .producto-img{
+    transform: scale(1.08);
+}
+
+.producto-texto{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.producto-texto h2{
+    transition: color 0.3s ease;
+}
+
+.productos-card:hover .producto-texto h2{
+    color: #ece81a;
+}
+
+/* ---------- Armado de PC ---------- */
+.armado-pc-contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ---------- Servicios ---------- */
+.servicios{
+    border-radius: 20px;
+}
+
+.servicios-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.servicios-card{
+    background-color: #0c0d0d;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    height: 480px;
+    border: solid #0c0d0d 2px;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.servicios-card:hover{
+    border: solid #222 2px;
+}
+
+.servicios-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+
+.servicios-card:hover img{
+    transform: scale(1.02);
+}
+
+.servicios-texto{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.servicios-texto h3{
+    transition: color 0.3s ease;
+}
+
+.servicios-card:hover .servicios-texto h3{
+    color: #ece81a;
+}
+
+/* ---------- Testimonios ---------- */
+.testimonios-slider{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+
+.testimonios-track{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scrollTestimonios 30s linear infinite;
+}
+
+.testimonios-track:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scrollTestimonios{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.testimonio-card{
+    background-color: #0c0d0d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+    border: solid #0c0d0d 2px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.testimonio-card:hover{
+    transform: scale(1.02);
+}
+
+.testimonio-card img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+
+.testimonio-cargo{
+    font-size: 0.85em;
+    opacity: 0.75;
+    margin: 2px 0 6px;
+}
+
+/* ---------- Footer ---------- */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-marca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contacto a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.fa-square-whatsapp { 
+    color: rgb(99, 230, 190);
+}
+
+.footer-contacto a:hover{
+    opacity: 0.75;
+}
+
+.footer-contacto i{
+    font-size: 1.4em;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-redes h3{
+    margin: 0;
+}
+
+.redes-iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 0.125rem solid transparent;
+    border-radius: 50%;
+    color: #fefefe;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-button:hover,
+.social-button:focus{
+    transform: rotate(360deg);
+}
+
+.social-button:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.social-button.facebook { 
+    background: #3b5998; 
+}
+
+.social-button.twitter{ 
+    background: #55acee; 
+}
+
+.social-button.tiktok{ 
+    background: #000000; 
+}
+
+.social-button.youtube{ 
+    background: #bb0000; 
+}
+.social-button.instagram{ 
+    background: #125688; 
+}
+
+.social-button.facebook:hover, .social-button.facebook:focus{ 
+    color: #3b5998; 
+    background: #fefefe; 
+    border-color: #3b5998;
+}
+
+.social-button.twitter:hover, .social-button.twitter:focus{ 
+    color: #55acee; 
+    background: #fefefe; 
+    border-color: #55acee; 
+}
+
+.social-button.tiktok:hover, .social-button.tiktok:focus{ 
+    color: #000000; 
+    background: #fefefe; 
+    border-color: #000000; 
+}
+
+.social-button.youtube:hover, .social-button.youtube:focus{ 
+    color: #bb0000; 
+    background: #fefefe; 
+    border-color: #bb0000; 
+}
+
+.social-button.instagram:hover, .social-button.instagram:focus{ 
+    color: #125688; 
+    background: #fefefe; 
+    border-color: #125688; 
+}
