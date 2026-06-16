@@ -6,9 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styleTienda.css">
+    <link rel="stylesheet" href="../css/styleLaptops.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <script src = "../js/scriptTienda.js" defer></script>
+    <script src = "../js/scriptLaptops.js" defer></script>
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
         <nav class = "navbar" aria-label = "Navegación principal">
             <ul>
                 <li><a href = "./index.html">INICIO</a></li>
-                <li><a href = "#" class = "active">TIENDA</a></li>
+                <li><a href = "./tienda.html">TIENDA</a></li>
                 <li><a href = "#">SERVICIOS</a></li>
                 <li><a href = "#">ARMA TU PC</a></li>
                 <li><a href = "#">NOSOTROS</a></li>
@@ -54,49 +54,26 @@
             </button>
         </section>
 
-        <!-- Tarjetas por sección -->
-            <section class = "productos">
-
-                <div class = "productos-card">
-                    <a href = "/paginas/laptops.html"> <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops"></a>
-                    <div class = "producto-texto">
-                        <h2>LAPTOPS</h2>
-                        <p>24 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-pc.png" alt="PC's">
-                    <div class = "producto-texto">
-                        <h2>PC'S DE ESCRITORIO</h2>
-                        <p>12 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-componentes.png" alt="componentes de PC">
-                    <div class = "producto-texto">
-                        <h2>COMPONENTES DE PC</h2>
-                        <p>48 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-perifericos.png" alt="Periféricos de PC">
-                    <div class = "producto-texto">
-                        <h2>PERIFÉRICOS</h2>
-                        <p>24 productos</p>
-                    </div>
-
-            </section>
-
+        <div class = "formulario">
             <!-- Buscar -->  
             <search>
-                <form action = "/buscar" method = "get">
+                <form action = "#" method = "get">
                     <input type = "search" placeholder = " Buscar">
                     <button type = "submit"><strong>BUSCAR</strong></button>
                 </form>
             </search>
+
+            <!-- Opciones -->  
+            <form class = "opciones" action="#"" method = "get">
+                <p>Ordenar por: </p>
+                <select name = "opciones-laptop">
+                    <option value="recomendados" selected>Recomendados</option>
+                    <option value="precio-menor-mayor">Precio de menor a mayor</option>
+                    <option value="precio-mayor-menor">Precio de mayor a menor</option>
+                    <option value="nuevos">Nuevos productos</option>
+                </select>
+            </form>
+        </div>
 
         <!-- Contenedor principal -->
 
@@ -104,10 +81,65 @@
 
             <!-- Categorías -->  
             <aside>
-                <h2>Categoría</h2>
-                <button class = "btn active btnVendidos">MÁS VENDIDOS</button>
-                <button class = "btn btnNuevos">MÁS NUEVOS</button>
-                <button class = "btn btnOfertas">OFERTAS</button>
+                <form action="#" class = "marcas">
+                    <h2>Marca</h2>
+                    <div class = "checkbox">
+                        <input type="checkbox" name="marca-laptop" value="acer"> 
+                        <label for="">ACER</label>
+                    </div>
+                    <div class = "checkbox">
+                        <input type="checkbox" name="marca-laptop" value="asus">
+                        <label for="">ASUS</label>
+                    </div>
+                    <div class = "checkbox">
+                         <input type="checkbox" name="marca-laptop" value="hp">
+                        <label for="">HP</label>
+                    </div>
+                   <div class = "checkbox">
+                         <input type="checkbox" name="marca-laptop" value="lenovo">
+                         <label for="">LENOVO</label>
+                    </div>
+
+                    <h2>Precio</h2>
+                    <div class = "precio">
+                        <label>
+                            Precio mínimo:
+                            <input type="range" id="minPrecio" min="0" max="1000" step="10" value="200">
+                            <span id="valorMin">200</span>
+                        </label>
+                        <br><br>
+                        <label>
+                            Precio máximo:
+                            <input type="range" id="maxPrecio" min="0" max="1000" step="10" value="800">
+                            <span id="valorMax">800</span>
+                        </label>
+                    </div>
+
+                    <h2>Calificación</h2>
+                    <div class = "calificacion">
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star5" value="5">
+                            <label for="star5">★★★★★</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star4" value="4">
+                            <label for="star4">★★★★☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star3" value="3">
+                            <label for="star3">★★★☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star2" value="2">
+                            <label for="star2">★★☆☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star1" value="1">
+                            <label for="star1">★☆☆☆☆</label>
+                        </div>
+                    </div>
+                </form>
+                
             </aside>
 
             <!-- Equipos-->  
@@ -122,6 +154,7 @@
                             <p>Precio en oferta: S/. 2 599</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
@@ -133,6 +166,55 @@
                             <p>Precio en oferta: S/. 3 799.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/acer/acer nitro V intel core i7.webp" alt="Laptop Acer Nitro V intel core i7">
+                    <figcaption>
+                        <h3>Laptop Gamer Nitro V  Intel Core I7-13620H Rtx 5060 32GB RAM 512 GB SSD 15.6" Fhd (1920 X 1080) 180Hz Nvidia Geforce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 4 999.00</p>
+                            <p>Precio en oferta: S/. 4 899.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/asus/asus gaming v16 rtx 3050.webp" alt="Laptop Asus Gaming V16">
+                    <figcaption>
+                        <h3>Laptop Asus Gaming V16 RTX 3050 Intel Core 5 210H 8GB RAM 512GB SSD 16" Nvidia GeForce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 899.00</p>
+                            <p>Precio en oferta: S/. 2 799.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/asus/asus TUF gaming a15 rtx 3050.webp" alt="Laptop Asus TUF gaming a15 rtx 3050">
+                    <figcaption>
+                        <h3>Laptop Asus Tuf Gaming A15 AMD Ryzen 7 170 RTX 3050 16Gb RAM 512 SSD Fa506Ncq-Hn013W</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 3 399.00</p>
+                            <p>Precio en oferta: S/. 3 099.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/asus/asus TUF gaming a16 rtx 5060.webp" alt="Laptop Asus TUF gaming a16">
+                    <figcaption>
+                        <h3>Laptop TUF Gaming A16 AMD Ryzen 7 260 16GB 512SSD RTX5060 16" FHD+</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 5 999.00</p>
+                            <p>Precio en oferta: S/. 5 899.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
@@ -144,6 +226,31 @@
                             <p>Precio en oferta: S/. 8 199.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/hp/hp gamer victus amd ryzen 7.webp" alt="Laptop HP Victus AMD Ryzen 7">
+                    <figcaption>
+                        <h3>Laptop Gamer Victus Amd Ryzen 7 Rtx 4050 16 Gb Ram  1tb Ssd 15.6"  15-fb3036la Nvidia Geforce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 3 999.00</p>
+                            <p>Precio en oferta: S/. 3 899.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/laptops/hp/hp gaming OMEN hyperx intel core i7.webp" alt="Laptop HP gaming OMEN hyperx">
+                    <figcaption>
+                        <h3>Laptop Gaming OMEN HyperX Intel Core i7 16 GB RAM RTX 5060 512 GB SSD 15.3"</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 7 499.00</p>
+                            <p>Precio en oferta: S/. 7 399.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
@@ -155,28 +262,31 @@
                             <p>Precio en oferta: S/. 4 599.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 5600G.jpg" alt="Procesador AMD Ryzen 5 5600G">
+                    <img src="../imagenes/laptops/lenovo/lenovo LOQ intel core i5.webp" alt="Laptop Lenovo LOQ intel core i5">
                     <figcaption>
-                        <h3>Procesador AMD Ryzen 5 5600GT 3.6GHz 6 Núcleos con Gráficos Radeon</h3>
+                        <h3>Laptop Lenovo LOQ Intel Core i5 16GB RAM 512GB SSD RTX 3050 6GB 15.6" FHD 144Hz</h3>
                         <div class="precios">
-                            <p>Precio: S/. 759.00</p>
-                            <p>Precio en oferta: S/. 699.00</p>
+                            <p>Precio: S/. 3 249.00</p>
+                            <p>Precio en oferta: S/. 3 199.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/componentes/procesadores/Intel Core i7-12700F.jpg" alt="Procesador Intel Core i7-12700F">
+                    <img src="../imagenes/laptops/lenovo/lenovo Yoga pro 7.webp" alt="Laptop Lenovo Yoga pro 7">
                     <figcaption>
-                        <h3>Procesador Intel Core i7-12700F hasta 4.9Ghz 25MB_Cache LGA1700</h3>
+                        <h3>Laptop Lenovo Yoga Pro 7 serie 300 AMD Ryzen AI 9 32GB RAM 1TB SSD 14.5" 3K 90Hz Oled</h3>
                         <div class="precios">
-                            <p>Precio: S/. 1 499.00</p>
-                            <p>Precio en oferta: S/. 1 249.00</p>
+                            <p>Precio: S/. 6 399.00</p>
+                            <p>Precio en oferta: S/. 5 799.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
             </section>
