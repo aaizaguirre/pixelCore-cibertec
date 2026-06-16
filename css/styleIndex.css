@@ -216,6 +216,22 @@ header{
     gap: 50px;
 }
 
+.armado-pc button{
+    width: 15%;
+    height: 42px;
+    border: #0c0d0d;
+    border-radius: 10px;
+    background-color: #0c0d0d;
+    color: white;
+    font-weight: bold;
+}
+
+.armado-pc button:hover{
+    background-color: #222;
+    border: solid #222;
+    color: #ece81a;
+}
+
 /* ---------- Servicios ---------- */
 .servicios{
     border-radius: 20px;
