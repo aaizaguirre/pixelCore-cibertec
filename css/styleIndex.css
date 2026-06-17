@@ -123,7 +123,7 @@ header{
     transition: transform 0.5s ease-in-out;
 }
 
-.carrusel-contenedor img{
+.carrusel-contenedor a{
     width: 100%;
     flex: 0 0 100%;
     flex-shrink: 0;
@@ -163,13 +163,19 @@ header{
     gap: 20px;
 }
 
+.productos a, .productos a:visited{
+    width: 80%;
+    color: white;
+    text-decoration: none;
+}
+
 .productos-card {
     background-color: #0c0d0d;
     display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     gap: 5px;
     border: solid #0c0d0d 2px;

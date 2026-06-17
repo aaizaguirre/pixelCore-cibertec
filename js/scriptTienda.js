@@ -1,6 +1,6 @@
 // BANNER
 const contenedor = document.querySelector(".carrusel-contenedor");
-const imagenes = document.querySelectorAll(".carrusel-contenedor img");
+const imagenes = document.querySelectorAll(".carrusel-contenedor a");
 
 const btnPrev = document.querySelector(".prev");
 const btnNext = document.querySelector(".next");
