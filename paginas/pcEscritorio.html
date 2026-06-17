@@ -6,9 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styleTienda.css">
+    <link rel="stylesheet" href="../css/stylePcEscritorio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <script src = "../js/scriptTienda.js" defer></script>
+    <script src = "../js/scriptPcEscritorio.js" defer></script>
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
         <nav class = "navbar" aria-label = "Navegación principal">
             <ul>
                 <li><a href = "./index.html">INICIO</a></li>
-                <li><a href = "#" class = "active">TIENDA</a></li>
+                <li><a href = "./tienda.html">TIENDA</a></li>
                 <li><a href = "#">SERVICIOS</a></li>
                 <li><a href = "#">ARMA TU PC</a></li>
                 <li><a href = "#">NOSOTROS</a></li>
@@ -54,49 +54,26 @@
             </button>
         </section>
 
-        <!-- Tarjetas por sección -->
-            <section class = "productos">
-
-                <div class = "productos-card">
-                    <a href = "/paginas/laptops.html"> <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops"></a>
-                    <div class = "producto-texto">
-                        <h2>LAPTOPS</h2>
-                        <p>24 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <a href = "./pc-escritorio.html"><img class = "producto-img" src="../imagenes/tarjetas/productos/card-pc.png" alt="PC's"></a>
-                    <div class = "producto-texto">
-                        <h2>PC'S DE ESCRITORIO</h2>
-                        <p>12 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-componentes.png" alt="componentes de PC">
-                    <div class = "producto-texto">
-                        <h2>COMPONENTES DE PC</h2>
-                        <p>48 productos</p>
-                    </div>
-                </div>
-
-                <div class = "productos-card">
-                    <img class = "producto-img" src="../imagenes/tarjetas/productos/card-perifericos.png" alt="Periféricos de PC">
-                    <div class = "producto-texto">
-                        <h2>PERIFÉRICOS</h2>
-                        <p>24 productos</p>
-                    </div>
-
-            </section>
-
+        <div class = "formulario">
             <!-- Buscar -->  
             <search>
-                <form action = "/buscar" method = "get">
+                <form action = "#" method = "get">
                     <input type = "search" placeholder = " Buscar">
                     <button type = "submit"><strong>BUSCAR</strong></button>
                 </form>
             </search>
+
+            <!-- Opciones -->  
+            <form class = "opciones" action="#"" method = "get">
+                <p>Ordenar por: </p>
+                <select name = "opciones-laptop">
+                    <option value="recomendados" selected>Recomendados</option>
+                    <option value="precio-menor-mayor">Precio de menor a mayor</option>
+                    <option value="precio-mayor-menor">Precio de mayor a menor</option>
+                    <option value="nuevos">Nuevos productos</option>
+                </select>
+            </form>
+        </div>
 
         <!-- Contenedor principal -->
 
@@ -104,79 +81,132 @@
 
             <!-- Categorías -->  
             <aside>
-                <h2>Categoría</h2>
-                <button class = "btn active btnVendidos">MÁS VENDIDOS</button>
-                <button class = "btn btnNuevos">MÁS NUEVOS</button>
-                <button class = "btn btnOfertas">OFERTAS</button>
+                <form action="#" class = "procesadores">
+                    <h2>Procesador</h2>
+                    <div class = "checkbox">
+                        <input type="checkbox" name="procesador" value="amd"> 
+                        <label for="">AMD</label>
+                    </div>
+                    <div class = "checkbox">
+                        <input type="checkbox" name="procesador" value="intel">
+                        <label for="">Intel</label>
+                    </div>
+
+                    <h2>Precio</h2>
+                    <div class = "precio">
+                        <label>
+                            Precio mínimo:
+                            <input type="range" id="minPrecio" min="0" max="1000" step="10" value="200">
+                            <span id="valorMin">200</span>
+                        </label>
+                        <br><br>
+                        <label>
+                            Precio máximo:
+                            <input type="range" id="maxPrecio" min="0" max="1000" step="10" value="800">
+                            <span id="valorMax">15000</span>
+                        </label>
+                    </div>
+
+                    <h2>Calificación</h2>
+                    <div class = "calificacion">
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star5" value="5">
+                            <label for="star5">★★★★★</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star4" value="4">
+                            <label for="star4">★★★★☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star3" value="3">
+                            <label for="star3">★★★☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star2" value="2">
+                            <label for="star2">★★☆☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star1" value="1">
+                            <label for="star1">★☆☆☆☆</label>
+                        </div>
+                    </div>
+                </form>
+                
             </aside>
 
             <!-- Equipos-->  
             <section class = "equipos">
 
                 <figure>
-                    <img src="../imagenes/laptops/acer/acer aspire lite intel core i7.webp" alt="Laptop Acer Aspire Lite Intel">
+                    <img src="../imagenes/pc/intel core i5 6400.webp" alt="PC intel core i5 6400">
                     <figcaption>
-                        <h3>Laptop Acer Aspire Lite Intel Core I7-13620h 16gb 512 Gb 15.6" FHD IPS (1920 X 1080)</h3>
+                        <h3>PC Intel Core i5 6400 / 7400, 16GB RAM DDR4, SSD 256GB, HDD externo 1TB, gráficos UHD 530, Windows 11 Pro, teclado español, negro</h3>
                         <div class="precios">
-                            <p>Precio: S/. 3 349</p>
-                            <p>Precio en oferta: S/. 2 599</p>
+                            <p>Precio: S/. 1 799.00</p>
+                            <p>Precio en oferta: S/. 1 570.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/laptops/acer/acer nitro lite intel core i7.webp" alt="Laptop Acer Nitro Lite Intel core i7">
+                    <img src="../imagenes/pc/intel core i7 16GB RAM.webp" alt="PC intel core i7 16GB RAM">
                     <figcaption>
-                        <h3>Laptop Gamer Nitro Lite  Intel Core I7-13620H  Rtx 4050  16 GB RAM 512 GB SSD 16" Wuxga (1920 X 1200) 165Hz Nvidia Geforce</h3>
+                        <h3>Pc Intel Core i7 Ram 16GB Disco HDD 1TB SSD 240GB Monitor 24FHD</h3>
                         <div class="precios">
-                            <p>Precio: S/. 3 899.00</p>
-                            <p>Precio en oferta: S/. 3 799.00</p>
+                            <p>Precio: S/. 2 250.00</p>
+                            <p>Precio en oferta: S/. 1 689.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/laptops/hp/hp gamer OMEN max 16.webp" alt="Laptop HP gamer OMEN">
+                    <img src="../imagenes/pc/intel core i9 12900KF.jpg" alt="PC intel core i9">
                     <figcaption>
-                        <h3>Laptop Hp Gamer Omen Max 16-ah0006la Intel Core Ultra7 32gb Ram 1tbrtx5070 Ssd 16"</h3>
+                        <h3>PC Intel Core i9 12900KF, 1TB SSD, 32GB DDR4 RAM, case View Green, FreeDos - sin sistema operativo, monitor 27" plano + teclado</h3>
                         <div class="precios">
-                            <p>Precio: S/. 8 299.00</p>
-                            <p>Precio en oferta: S/. 8 199.00</p>
+                            <p>Precio: S/. 14 999.00</p>
+                            <p>Precio en oferta: S/. 10 799.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/laptops/lenovo/lenovo LOQ essential e gen 11.webp" alt="Laptop Lenovo LOQ essential e gen 11">
+                    <img src="../imagenes/pc/intel core i9 ultra 285k.webp" alt="PC intel core i9 ultra">
                     <figcaption>
-                        <h3>Laptop Gamer Lenovo LOQ Essential 13va Gen Intel Core i5 RTX 5050 16GB RAM 512GB SSD 15.6" FHD 144Hz</h3>
+                        <h3>PC GAMER INTEL CORE i9 ULTRA 285K 64GBDDR5 1TB 27 RTX5080 16GB</h3>
                         <div class="precios">
-                            <p>Precio: S/. 4 699.00</p>
-                            <p>Precio en oferta: S/. 4 599.00</p>
+                            <p>Precio: S/. 25 999.00</p>
+                            <p>Precio en oferta: S/. 20 4999.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 5600G.jpg" alt="Procesador AMD Ryzen 5 5600G">
+                    <img src="../imagenes/pc/ryzen 7 8700F.jpg" alt="PC ryzen 7 8700F">
                     <figcaption>
-                        <h3>Procesador AMD Ryzen 5 5600GT 3.6GHz 6 Núcleos con Gráficos Radeon</h3>
+                        <h3>PC Ryzen 7 8700F, 500GB SSD, 16GB DDR5 RAM, case Falkor White, FreeDos - sin sistema operativo, monitor 24" + teclado</h3>
                         <div class="precios">
-                            <p>Precio: S/. 759.00</p>
-                            <p>Precio en oferta: S/. 699.00</p>
+                            <p>Precio: S/.6 599.00</p>
+                            <p>Precio en oferta: S/. 6 399.00</p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
                 <figure>
-                    <img src="../imagenes/componentes/procesadores/Intel Core i7-12700F.jpg" alt="Procesador Intel Core i7-12700F">
+                    <img src="../imagenes/pc/ryzen 7-5700G 16GB RAM.webp" alt="PC ryzen 7 5700G">
                     <figcaption>
-                        <h3>Procesador Intel Core i7-12700F hasta 4.9Ghz 25MB_Cache LGA1700</h3>
+                        <h3>PC GAMER RYZEN 7-5700G Ram 16GB Disco Solido SSD 1TB MONITOR 27” FHD</h3>
                         <div class="precios">
-                            <p>Precio: S/. 1 499.00</p>
-                            <p>Precio en oferta: S/. 1 249.00</p>
+                            <p>Precio: S/. 3 520.00</p>
+                            <p>Precio en oferta: S/. 2 550.00 </p>
                         </div>
                     </figcaption>
+                    <button>Agregar al carrito</button>
                 </figure>
 
             </section>
