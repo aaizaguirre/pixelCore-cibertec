@@ -32,7 +32,6 @@ function anteriorImagen(){
     actualizarCarrusel();
 }
 
-// BOTONES - CATEGORÍAS
 btnNext.addEventListener("click", siguienteImagen);
 btnPrev.addEventListener("click", anteriorImagen);
 
@@ -40,7 +39,7 @@ window.addEventListener("resize", actualizarCarrusel);
 
 setInterval(siguienteImagen, 10000);
 
-
+// BOTONES - CATEGORÍAS
 const botones = document.querySelectorAll(".btn");
 
 botones.forEach(boton =>{
