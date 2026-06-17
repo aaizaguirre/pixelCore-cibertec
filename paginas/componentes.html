@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleComponentes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src = "../js/scriptComponentes.js" defer></script>
+    <title>PixelCore - Tecnología a tu medida</title>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+
+    <header>
+        <img class = "logo-img" src = "../imagenes/logo-pixelCore.png" alt="Logo de PixelCore">
+        <div class = "logo-info">
+            <img class = "logo-nombre" src = "../imagenes/nombre-pixelCore.png" alt="PixelCore">
+            <p class = "logo-slogan">Tecnología a tu medida</p>
+        </div>
+        <nav class = "navbar" aria-label = "Navegación principal">
+            <ul>
+                <li><a href = "./index.html">INICIO</a></li>
+                <li><a href = "./tienda.html">TIENDA</a></li>
+                <li><a href = "#">SERVICIOS</a></li>
+                <li><a href = "#">ARMA TU PC</a></li>
+                <li><a href = "#">NOSOTROS</a></li>
+                <li><a href = "#">CONTACTO</a></li>
+                <li><a href = "#">CARRITO DE COMPRAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ========== MAIN ========== -->
+
+    <main>
+
+        <!-- Banner -->
+        <section class = "carrusel">
+            <button class = "button prev">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class = "carrusel-viewport">
+                <div class = "carrusel-contenedor">
+                    <img src = "../imagenes/banners/banner_laptop.png" alt = "banner de laptops">
+                    <img src = "../imagenes/banners/banner_pc.png" alt = "banner de PC's">
+                    <img src = "../imagenes/banners/banner_componentes.png" alt = "banner de componentes de PC">
+                    <img src = "../imagenes/banners/banner_perifericos.png" alt = "Periféricos">
+                </div>
+            </div>
+            <button class = "button next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </section>
+
+        <div class = "formulario">
+            <!-- Buscar -->  
+            <search>
+                <form action = "#" method = "get">
+                    <input type = "search" placeholder = " Buscar">
+                    <button type = "submit"><strong>BUSCAR</strong></button>
+                </form>
+            </search>
+
+            <!-- Opciones -->  
+            <form class = "opciones" action="#"" method = "get">
+                <p>Ordenar por: </p>
+                <select name = "opciones-laptop">
+                    <option value="recomendados" selected>Recomendados</option>
+                    <option value="precio-menor-mayor">Precio de menor a mayor</option>
+                    <option value="precio-mayor-menor">Precio de mayor a menor</option>
+                    <option value="nuevos">Nuevos productos</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- Contenedor principal -->
+
+        <div class = "contenedor-principal">
+
+            <!-- Categorías -->  
+            <aside>
+                <form action="#" class = "tipo-componente">
+                    <h2>Tipo de componente</h2>
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="almacenamiento"> 
+                        <label for="">Almacenamiento</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="fuente-poder">
+                        <label for="">Fuente de poder</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="gabinete">
+                        <label for="">Gabinete</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="ram">
+                        <label for="">Memoria RAM</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="ram">
+                        <label for="">Memoria RAM</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="procesador">
+                        <label for="">Procesadores</label>
+                    </div>
+
+                    <div class = "checkbox">
+                        <input type="checkbox" name="tipo-componente" value="tarjeta-grafica">
+                        <label for="">Tarjetas gráficas</label>
+                    </div>
+
+                    <h2>Precio</h2>
+                    <div class = "precio">
+                        <label>
+                            Precio mínimo:
+                            <input type="range" id="minPrecio" min="0" max="1000" step="10" value="200">
+                            <span id="valorMin">200</span>
+                        </label>
+                        <br><br>
+                        <label>
+                            Precio máximo:
+                            <input type="range" id="maxPrecio" min="0" max="1000" step="10" value="800">
+                            <span id="valorMax">15000</span>
+                        </label>
+                    </div>
+
+                    <h2>Calificación</h2>
+                    <div class = "calificacion">
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star5" value="5">
+                            <label for="star5">★★★★★</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star4" value="4">
+                            <label for="star4">★★★★☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star3" value="3">
+                            <label for="star3">★★★☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star2" value="2">
+                            <label for="star2">★★☆☆☆</label>
+                        </div>
+                        <div class = "calificacion estrellas">
+                            <input type="radio" name="estrellas" id="star1" value="1">
+                            <label for="star1">★☆☆☆☆</label>
+                        </div>
+                    </div>
+                </form>
+                
+            </aside>
+
+            <!-- Equipos-->  
+            <section class = "equipos">
+
+                <!-- Almacenamiento -->
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 1TB Kingston Fury Renegade G5 PCIe.jpg" alt="Disco SSD 1TB Kingston Fury">
+                    <figcaption>
+                        <h3>Disco SSD 1TB Kingston Fury Renegade G5 PCIe 5.0 x4 M.2</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 999.90</p>
+                            <p>Precio en oferta: S/. 1 469.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 1TB Kingston Fury Renegade PCIe 4.0 M.2.jpg" alt="Disco SSD 1TB Kingston Fury Renegade">
+                    <figcaption>
+                        <h3>Disco SSD 1TB Kingston Fury Renegade PCIe 4.0 M.2 con disipador térmico para PC y PS5</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 599.00</p>
+                            <p>Precio en oferta: S/. 1 179.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 2TB Kingston Fury Renegade PCIe 4.0 M.2.jpg" alt="Disco SSD 2TB Kingston Fury Renegade">
+                    <figcaption>
+                        <h3>Disco SSD 2TB Kingston Fury Renegade PCIe 4.0 M.2 con disipador térmico para PC y PS5</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 799.00</p>
+                            <p>Precio en oferta: S/. 2 099.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 2TB Kingston NV3 PCIe Gen4 M.2.jpg" alt="Disco SSD 2TB Kingston NV3 PCIe Gen4 M.2">
+                    <figcaption>
+                        <h3>Disco SSD 2TB Kingston NV3 PCIe Gen4 M.2</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 199.00</p>
+                            <p>Precio en oferta: S/. 949.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 480GB Kingston A400 2.5 SATA.jpg" alt="Disco SSD 480GB Kingston A400 2.5 SATA">
+                    <figcaption>
+                        <h3>Disco SSD 480GB Kingston A400 2.5" SATA</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 499.00</p>
+                            <p>Precio en oferta: S/. 399.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 500GB Kingston NV3 PCIe Gen4 M.2.jpg" alt="Disco SSD 500GB Kingston NV3 PCIe Gen4 M.2">
+                    <figcaption>
+                        <h3>Disco SSD 500GB Kingston NV3 PCIe Gen4 M.2</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 529.90</p>
+                            <p>Precio en oferta: S/. 459.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/almacenamiento/Disco SSD 960GB Kingston A400 2.5 SATA.jpg" alt="Disco SSD 960GB Kingston A400">
+                    <figcaption>
+                        <h3>Disco SSD 960GB Kingston A400 2.5" SATA</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 599.00</p>
+                            <p>Precio en oferta: S/. 449.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- Fuente de poder -->
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de poder 550W Antryx 80Plus Bronce.jpg" alt="Fuente de poder 550W Antryx 80Plus Bronce">
+                    <figcaption>
+                        <h3>Fuente de poder 550W Antryx 80Plus Bronce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 249.90</p>
+                            <p>Precio en oferta: S/. 189.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de poder 650W Antryx 80+ Bronce.jpg" alt="Fuente de poder 650W Antryx 80+ Bronce">
+                    <figcaption>
+                        <h3>Fuente de poder 650W Antryx 80+ Bronce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 249.00</p>
+                            <p>Precio en oferta: S/. 229.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de Poder 800W.jpg" alt="Spektra - Fuente de Poder 800W">
+                    <figcaption>
+                        <h3>Spektra - Fuente de Poder 800W</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 249.00</p>
+                            <p>Precio en oferta: S/. 199.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de Poder 1000W Asus TUF Gaming Gold Full Modular.jpg" alt="Fuente de Poder 1000W Asus TUF">
+                    <figcaption>
+                        <h3>Fuente de Poder 1000W Asus TUF Gaming Gold Full Modular</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 799.90</p>
+                            <p>Precio en oferta: S/. 699.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de Poder 1000W PCI-E 5 80 PLUS Gold.jpg" alt="Fuente de Poder 1000W MSI MAG A1000GLS">
+                    <figcaption>
+                        <h3>Fuente de Poder 1000W MSI MAG A1000GLS PCI-E 5 80 PLUS Gold</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 599.90</p>
+                            <p>Precio en oferta: S/. 549.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/fuente de poder/Fuente de Poder 1100W CoolerMaster V Platinum V2 ATX 3.1.jpg" alt="Fuente de Poder 1100W CoolerMaster">
+                    <figcaption>
+                        <h3>Fuente de Poder 1100W CoolerMaster V Platinum V2 ATX 3.1</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 199.00</p>
+                            <p>Precio en oferta: S/. 1 099.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- Gabinetes -->
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete ATX Antryx RX-260, 4 Ventiladores RGB.jpg" alt="Gabinete ATX Antryx RX-260">
+                    <figcaption>
+                        <h3>Gabinete ATX Antryx RX-260, 4 Ventiladores RGB</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 229.90</p>
+                            <p>Precio en oferta: S/. 199.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete ATX CoolerMaster MasterBox 520.jpg" alt="Gabinete ATX CoolerMaster MasterBox 520">
+                    <figcaption>
+                        <h3>Gabinete ATX CoolerMaster MasterBox 520 Mesh ARGB Negro (MB520-KGNN-S00)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 499.90</p>
+                            <p>Precio en oferta: S/. 379.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete ATX Deepcool MATREXX 70 RGB 3F.jpg" alt="Gabinete ATX Deepcool MATREXX">
+                    <figcaption>
+                        <h3>Gabinete ATX Deepcool MATREXX 70 RGB 3F</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 749.00</p>
+                            <p>Precio en oferta: S/. 449.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete con fuente de 350W ATX Antryx Elegant 670.jpg" alt="Gabinete con fuente de 350W ATX">
+                    <figcaption>
+                        <h3>Gabinete con fuente de 350W ATX Antryx Elegant 670</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 229.90</p>
+                            <p>Precio en oferta: S/. 179.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete con fuente Elite 500 Steel + 500W Elite Nex.jpg" alt="Gabinete con fuente Elite 500 Steel">
+                    <figcaption>
+                        <h3>Gabinete con fuente Elite 500 Steel + 500W Elite Nex</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 439.90</p>
+                            <p>Precio en oferta: S/. 349.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/gabinetes/Gabinete sin fuente Cyclops ATX Blanco con ARGB.jpg" alt="Gabinete sin fuente Cyclops ATX">
+                    <figcaption>
+                        <h3>Gabinete sin fuente Cyclops ATX Blanco con ARGB</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 469.90</p>
+                            <p>Precio en oferta: S/. 299.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- RAM -->
+                <figure>
+                    <img src="../imagenes/componentes/memoria ram/DDR4 8GB 3200MTs CL16.jpg" alt="Memoria RAM DDR4 8GB 3200MT/s">
+                    <figcaption>
+                        <h3>Memoria RAM DDR4 8GB 3200MT/s CL16 Kingston Fury Beast</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 479.00</p>
+                            <p>Precio en oferta: S/. 449.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/memoria ram/DDR4 16GB 3200MTs CL16.jpg" alt="Memoria RAM DDR4 16GB 3200MT/s">
+                    <figcaption>
+                        <h3>Memoria RAM DDR4 16GB 3200MT/s CL16 Kingston Fury Beast</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 199.00</p>
+                            <p>Precio en oferta: S/. 799.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/memoria ram/DDR5 8GB 5600MTs CL40.jpg" alt="Memoria RAM DDR5 8GB 5600MT/s">
+                    <figcaption>
+                        <h3>Memoria RAM DDR5 8GB 5600MT/s CL40 Kingston Fury Beast</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 699.90</p>
+                            <p>Precio en oferta: S/. 599.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/memoria ram/DDR5 16GB 5600MTs CL40.jpg" alt="Memoria RAM DDR5 16GB 5600MT/s">
+                    <figcaption>
+                        <h3>Memoria RAM DDR5 16GB 5600MT/s CL40 Kingston Fury Beast</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 699.90</p>
+                            <p>Precio en oferta: S/. 1 199.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- Placa madre -->
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/Asus Prime H610M-K D4.jpg" alt="Placa Madre Asus Prime H610M-K D4">
+                    <figcaption>
+                        <h3>Placa Madre Asus Prime H610M-K D4 (mATX, DDR4, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 429.90</p>
+                            <p>Precio en oferta: S/. 339.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/Asus Prime H610M-K D5.jpg" alt="Placa Madre Asus Prime H610M-K D5">
+                    <figcaption>
+                        <h3>Placa Madre Asus Prime H610M-K D5 (mATX, DDR5, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 369.90</p>
+                            <p>Precio en oferta: S/. 319.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/Gigabyte B760M D3HP.jpg" alt="Placa Madre Gigabyte B760M D3HP">
+                    <figcaption>
+                        <h3>Placa Madre Gigabyte B760M D3HP (mATX, DDR4, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 529.90</p>
+                            <p>Precio en oferta: S/. 419.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/MSI PRO B760M-E.jpg" alt="Placa Madre MSI PRO B760M-E">
+                    <figcaption>
+                        <h3>Placa Madre MSI PRO B760M-E (mATX, DDR4, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 449.90</p>
+                            <p>Precio en oferta: S/. 399.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/MSI PRO B760M-P.jpg" alt="Placa Madre MSI PRO B760M-P">
+                    <figcaption>
+                        <h3>Placa Madre MSI PRO B760M-P (mATX, DDR5, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 589.90</p>
+                            <p>Precio en oferta: S/. 479.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/MSI PRO H610M-G.jpg" alt="Placa Madre MSI PRO H610M-G">
+                    <figcaption>
+                        <h3>Placa Madre MSI PRO H610M-G (mATX, DDR4, Intel LGA1700)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 389.90</p>
+                            <p>Precio en oferta: S/. 329.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/placa madre/MSI PRO H810M-B.jpg" alt="Placa Madre MSI PRO H810M-B">
+                    <figcaption>
+                        <h3>Placa Madre MSI PRO H810M-B (mATX, DDR5, Intel LGA1851)</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 479.90</p>
+                            <p>Precio en oferta: S/. 419.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- Procesadores -->
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 5600G.jpg" alt="Procesador AMD Ryzen 5 5600GT">
+                    <figcaption>
+                        <h3>Procesador AMD Ryzen 5 5600GT 3.6GHz 6 Núcleos con Gráficos Radeon</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 759.00</p>
+                            <p>Precio en oferta: S/. 699.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 7600X.jpg" alt="Procesador AMD Ryzen 5 7600X">
+                    <figcaption>
+                        <h3>Procesador AMD Ryzen 5 7600X 4.7GHz 6 Núcleos sin disipador incluido</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 249.00</p>
+                            <p>Precio en oferta: S/. 949.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 9600.jpg" alt="Procesador AMD Ryzen 5 9600">
+                    <figcaption>
+                        <h3>Procesador AMD Ryzen 5 9600 3.8GHz 6 Núcleos</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 249.00</p>
+                            <p>Precio en oferta: S/. 999.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 5 9600X.jpg" alt="Procesador AMD Ryzen 5 9600X">
+                    <figcaption>
+                        <h3>Procesador AMD Ryzen 5 9600X 3.90GHz 6 Núcleos sin disipador incluido</h3>
+                        <div class="precios">
+                            <p>Precio: S/.  1 299.00</p>
+                            <p>Precio en oferta: S/. 1 099.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/AMD Ryzen 7 5700G.jpg" alt="Procesador AMD Ryzen 7 5700G">
+                    <figcaption>
+                        <h3>Procesador AMD Ryzen 7 5700G 3.8GHz 8 Núcleos con Gráficos Radeon</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 099.90</p>
+                            <p>Precio en oferta: S/. 849.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/Intel Core i7-12700F.jpg" alt="Procesador Intel Core i7-12700F">
+                    <figcaption>
+                        <h3>Procesador Intel Core i7-12700F hasta 4.9Ghz 25MB_Cache LGA1700</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 499.00</p>
+                            <p>Precio en oferta: S/. 1 249.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/Intel Core i7-14700.jpg" alt="Procesador Intel Core i7-14700">
+                    <figcaption>
+                        <h3>Procesador Intel Core i7-14700 hasta 5.4Ghz 33MB_Cache LGA1700 con video Intel UHD Graphics 730</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 899.00</p>
+                            <p>Precio en oferta: S/. 1 549.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/procesadores/Intel Core i7-14700K.jpg" alt="Procesador Intel Core i7-14700K">
+                    <figcaption>
+                        <h3>Procesador Intel Core i7-14700K hasta 5.6Ghz 33MB_Cache LGA1700 Video Intel UHD s/cooler</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 299.00</p>
+                            <p>Precio en oferta: S/. 1 649.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <!-- Tarjetas gráficas -->
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 3050 6GB Asus Dual OC.jpg" alt="Tarjeta de video GeForce RTX 3050">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 3050 6GB Asus Dual OC</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 199.00</p>
+                            <p>Precio en oferta: S/. 929.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 3050 6GB MSI Ventus 2X OC.jpg" alt="Tarjeta de video GeForce RTX 3050">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 3050 6GB MSI Ventus 2X OC</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 249.00</p>
+                            <p>Precio en oferta: S/. 929.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 5050 8GB Gigabyte Windforce OC V2.jpg" alt="Tarjeta de video GeForce RTX 5050">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 5050 8GB Gigabyte Windforce OC V2</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 1 599.00</p>
+                            <p>Precio en oferta: S/. 1 399.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 5060 Ti 8GB Gigabyte Windforce.jpg" alt="Tarjeta de video GeForce RTX 5060">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 5060 Ti 8GB Gigabyte Windforce</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 499.00</p>
+                            <p>Precio en oferta: S/. 2 099.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 5070 12GB Asus Prime OC.jpg" alt="Tarjeta de video GeForce RTX 5070">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 5070 12GB Asus Prime OC</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 4 299.00</p>
+                            <p>Precio en oferta: S/. 3 499.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/GeForce RTX 5070 Ti 16GB Gigabyte Eagle OC Ice.jpg" alt="Tarjeta de video GeForce RTX 5070">
+                    <figcaption>
+                        <h3>Tarjeta de video GeForce RTX 5070 Ti 16GB Gigabyte Eagle OC Ice</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 7 699.00</p>
+                            <p>Precio en oferta: S/. 5 699.00</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/Radeon RX 9060 XT 16GB Gigabyte Gaming OC Ice.jpg" alt="Tarjeta de video Radeon RX 9060">
+                    <figcaption>
+                        <h3>Tarjeta de video Radeon RX 9060 XT 16GB Gigabyte Gaming OC Ice</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 899.00</p>
+                            <p>Precio en oferta: S/. 2 199.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+                <figure>
+                    <img src="../imagenes/componentes/tarjetas graficas/Radeon RX 9060 XT 16GB XFX Swift OC.jpg" alt="Tarjeta de video Radeon RX 9060">
+                    <figcaption>
+                        <h3>Tarjeta de video Radeon RX 9060 XT 16GB XFX Swift OC</h3>
+                        <div class="precios">
+                            <p>Precio: S/. 2 399.90</p>
+                            <p>Precio en oferta: S/. 2 099.90</p>
+                        </div>
+                    </figcaption>
+                    <button>Agregar al carrito</button>
+                </figure>
+
+            </section>
+
+        </div>
+
+        <!-- Armado de PC -->
+        <section class = "armado-pc seccion interior">
+                <iframe 
+                    width = "720" height = "360"
+                    src = "https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
+                    title = "Video: Cómo armar tu PC con PixelCore" 
+                    frameborder = "0" 
+                    allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy = "strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+                <div class = "armado-pc-texto">
+                    <h3>¿Quieres una PC a tu medida?</h3>
+                    <p>Elige tus componentes y nosotros la armamos.</p>
+                    <p>Garantía incluída.</p>   
+                </div>
+                <button>ARMA TU PC <i class="fas fa-arrow-right"></i></button>
+            </section>
+
+        <!-- Testimonios -->
+        <section class = "testimonios seccion-interior">
+
+            <h2>Testimonios</h2>
+            <p>De nuestros clientes</p>
+
+            <div class = "testimonios-slider">
+
+                <div class = "testimonios-track">
+
+                    <!-- Primer grupo de tarjetas -->
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-1.jpg" alt = "Foto de María Gómez">
+                        <h4>María Gómez</h4>
+                        <p class = "testimonio-cargo">CEO de TechSolutions</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"El servicio fue excepcional, superaron todas nuestras expectativas y el equipo de soporte siempre estuvo disponible cuando lo necesitamos. Totalmente recomendados."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-2.jpg" alt = "Foto de Juan Giménez">
+                        <h4>Juan Giménez</h4>
+                        <p class = "testimonio-cargo">Supervisor de ventas de NetSecurity</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Atención rápida, trato amable y equipos con garantía."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-3.jpg" alt = "Foto de Roberto Sánchez">
+                        <h4>Roberto Sánchez</h4>
+                        <p class = "testimonio-cargo">Desarrollador de software</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Cuentan con equipos de última tecnología y sus servicios son muy completos. Altamente recomendado."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-4.jpg" alt = "Foto de Manuel Suárez">
+                        <h4>Manuel Suárez</h4>
+                        <p class = "testimonio-cargo">Gamer profesional</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Su servicio de Armado de PC's es muy completo. Cuentan con los últimos componentes y a buen precio."</p>
+                    </article>
+
+                    <!-- Copia del primer grupo de tarjetas -->
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-1.jpg" alt = "Foto de María Gómez">
+                        <h4>María Gómez</h4>
+                        <p class = "testimonio-cargo">CEO de TechSolutions</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"El servicio fue excepcional, superaron todas nuestras expectativas y el equipo de soporte siempre estuvo disponible cuando lo necesitamos. Totalmente recomendados."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-2.jpg" alt = "Foto de Juan Giménez">
+                        <h4>Juan Giménez</h4>
+                        <p class = "testimonio-cargo">Supervisor de ventas de NetSecurity</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Atención rápida, trato amable y equipos con garantía."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-3.jpg" alt = "Foto de Roberto Sánchez">
+                        <h4>Roberto Sánchez</h4>
+                        <p class = "testimonio-cargo">Desarrollador de software</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Cuentan con equipos de última tecnología y sus servicios son muy completos. Altamente recomendado."</p>
+                    </article>
+
+                    <article class = "testimonio-card">
+                        <img src = "../imagenes/testimonios/persona-4.jpg" alt = "Foto de Manuel Suárez">
+                        <h4>Manuel Suárez</h4>
+                        <p class = "testimonio-cargo">Gamer profesional</p>
+                        <div class = "estrellas" aria-label = "5 estrellas">★★★★★</div>
+                        <p>"Su servicio de Armado de PC's es muy completo. Cuentan con los últimos componentes y a buen precio."</p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+
+        <div class = "footer-marca">
+            <img class = "logo-img" src = "../imagenes/logo-pixelCore.png" alt = "Logo de PixelCore">
+            <div class = "logo-info">
+                <img class = "logo-nombre" src = "../imagenes/nombre-pixelCore.png" alt = "PixelCore">
+                <p class = "logo-slogan">Tecnología a tu medida</p>
+            </div>
+        </div>
+
+        <div class = "footer-direccion">
+            <h3>Dirección</h3>
+            <p>Pasaje Velarde 188 int. 108, Cercado de Lima.</p>
+            <p><strong>Horario: </strong>9:00 AM - 6:00 PM</p>
+        </div>
+
+        <div class = "footer-contacto">
+            <h3>Contacto</h3>
+            <a  href = "https://www.whatsapp.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Contactar por Whatsapp">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <span>+51 980 168 985</span>
+            </a>
+            <a href = "https://www.gmail.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Contactar por correo electrónico">
+                <i class="fa-solid fa-envelope"></i>
+                <span>pixelcore@gmail.com</span>
+            </a>
+        </div>
+
+        <div class = "footer-redes">
+            <h3>Síguenos:</h3>
+
+            <div class = "redes-iconos">
+                <a class = "social-button facebook" href = "https://www.facebook.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Facebook">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a class = "social-button twitter" href = "https://www.twitter.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Twitter">
+                    <i class = "fab fa-twitter" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button tiktok" href = "https://www.tiktok.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de TikTok">
+                    <i class = "fab fa-tiktok" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button youtube" href = "https://www.youtube.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar canal de YouTube">
+                    <i class = "fab fa-youtube" aria-hidden = "true"></i>
+                </a>
+                <a class = "social-button instagram" href = "https://www.instagram.com/" target = "_blank" rel = "noopener noreferrer" aria-label = "Visitar perfil de Instagram">
+                    <i class = "fab fa-instagram" aria-hidden = "true"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
