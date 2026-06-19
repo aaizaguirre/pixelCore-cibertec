@@ -1,0 +1,300 @@
+/* ---------- Reset y base ---------- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+
+/* ---------- Parte reutilizable ---------- */
+.logo-img{
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.logo-nombre{
+    width: 150px;
+}
+
+.logo-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logo-slogan{
+    margin: 0;
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+h1{
+    margin: 20px auto;
+}
+
+h2{
+    margin: 20px auto;
+}
+
+h3{
+    margin: 20px auto;
+}
+
+button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+/* ---------- Header ---------- */
+header{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #050505;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar{
+    margin-left: auto; 
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+    list-style: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.navbar ul li a:hover{
+    background-color: #222;
+    color: #ece81a;
+}
+
+.navbar ul li a.active{
+    background-color: #ffffff;
+    color: #050505;
+}
+
+/* ---------- Formulario ---------- */
+.contacto-form{
+    margin-top: 100px;
+    margin: 140px auto 20px auto;
+    width: 80%;
+}
+
+.contacto-form .titulo{
+    margin-bottom: 40px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.formulario label{
+    width: 180px;  
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea{
+    flex: 1;
+    padding: 5px;
+    width: 300px;
+}
+
+.formulario #tipo-atencion div{
+    width: 300px;
+    gap: 20px;
+}
+
+button{
+    width: 10%;
+    height: 50px;
+    border: #0c0d0d;
+    border-radius: 10px;
+    background-color: #0c0d0d;
+    color: white;
+}
+
+button:hover{
+    background-color: #222;
+    border: solid #222;
+    color: #ece81a;
+}
+
+
+/* ---------- Footer ---------- */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-marca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contacto a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.fa-square-whatsapp { 
+    color: rgb(99, 230, 190);
+}
+
+.footer-contacto a:hover{
+    opacity: 0.75;
+}
+
+.footer-contacto i{
+    font-size: 1.4em;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-redes h3{
+    margin: 0;
+}
+
+.redes-iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 0.125rem solid transparent;
+    border-radius: 50%;
+    color: #fefefe;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-button:hover,
+.social-button:focus{
+    transform: rotate(360deg);
+}
+
+.social-button:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.social-button.facebook { 
+    background: #3b5998; 
+}
+
+.social-button.twitter{ 
+    background: #55acee; 
+}
+
+.social-button.tiktok{ 
+    background: #000000; 
+}
+
+.social-button.youtube{ 
+    background: #bb0000; 
+}
+.social-button.instagram{ 
+    background: #125688; 
+}
+
+.social-button.facebook:hover, .social-button.facebook:focus{ 
+    color: #3b5998; 
+    background: #fefefe; 
+    border-color: #3b5998;
+}
+
+.social-button.twitter:hover, .social-button.twitter:focus{ 
+    color: #55acee; 
+    background: #fefefe; 
+    border-color: #55acee; 
+}
+
+.social-button.tiktok:hover, .social-button.tiktok:focus{ 
+    color: #000000; 
+    background: #fefefe; 
+    border-color: #000000; 
+}
+
+.social-button.youtube:hover, .social-button.youtube:focus{ 
+    color: #bb0000; 
+    background: #fefefe; 
+    border-color: #bb0000; 
+}
+
+.social-button.instagram:hover, .social-button.instagram:focus{ 
+    color: #125688; 
+    background: #fefefe; 
+    border-color: #125688; 
+}

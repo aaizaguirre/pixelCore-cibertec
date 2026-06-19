@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styleNosotros.css">
+    <link rel="stylesheet" href="../css/styleContacto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
@@ -26,8 +26,8 @@
                 <li><a href = "./tienda.html">TIENDA</a></li>
                 <li><a href = "#">SERVICIOS</a></li>
                 <li><a href = "#">ARMA TU PC</a></li>
-                <li><a href = "#" class = "active">NOSOTROS</a></li>
-                <li><a href = "./contacto.html">CONTACTO</a></li>
+                <li><a href = "./nosotros.html">NOSOTROS</a></li>
+                <li><a href = "#" class = "active">CONTACTO</a></li>
                 <li><a href = "#">CARRITO DE COMPRAS</a></li>
             </ul>
         </nav>
@@ -36,120 +36,73 @@
     <!-- ========== MAIN ========== -->
 
     <main>
+        
+        <section class="contacto-form">
 
-        <!-- ========== Banner ========== -->
-        <div class = "banner">
-            <img src="../imagenes/nosotros/banner_nosotros.png" alt="Fundadores de la tienda">
-        </div>
-
-        <!-- ====== Presentación ====== -->
-        <section class = "presentacion">
-            <h1>Conoce PixelCore</h1>
-            <p>Somos un equipo de cinco jóvenes apasionados por la tecnología que decidió convertir su experiencia y conocimientos en una tienda donde comprar una computadora sea sencillo, transparente y con asesoría real.</p>
-        </section>
-
-        <!-- ====== Historia ====== -->
-        <section class = "historia">
-            <div class = "texto">
-                <h2>Nuestra historia</h2>
-
-                <p>PixelCore nació de una amistad formada en las aulas de Cibertec. Compartíamos el interés por el hardware y la idea de que la tecnología debería ser accesible para cualquier persona.</p>
+            <div class="titulo">
+                <h1>¡CONTÁCTANOS!</h1>
+                <p>Si deseas adquirir alguna computadora, laptop, componente o periférico.</p>
+                <p>Si buscas algún servicio de reparación y mantenimiento de equipos.</p>
+                <p>Si quieres asesoría personalizada.</p>
                 <br>
-
-                <p>Con el tiempo comenzamos ayudando a familiares y amigos a reparar, actualizar y armar sus equipos. Esa experiencia nos mostró que muchaas personas necesitaban una asesoría honesta para elegir la computadora adecuada sin complicarse con términos técnicos ni pagar de más.</p>
-                <br>
-
-                <p>Hoy seguimos trabajando con la misma filosofía: ofrecer productos confiables, un servicio técnico responsable y una atención cercana para que cada cliente encuentre la solución que realmente necesita.</p>
-
+                <p>Escríbenos y con gusto te ayudaremos!</p>
             </div>
 
-            <div class = "imagen">
-                <img src = "../imagenes/nosotros/nosotros-trabajo-taller.png"
-                    alt="Equipo de PixelCore trabajando">
-            </div>
+            <form class="formulario">
 
-        </section>
+                <div>
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="Nombre completo">
+                </div>
 
-        <!-- ========== Misión y visión ========== -->
-        <section class="mision-vision">
+                <div>
+                    <label for="">Correo electrónico:</label>
+                    <input type="email" placeholder="Correo electrónico">
+                </div>
+                
+                <div>
+                    <label for="">Teléfono:</label>
+                    <input type="tel" placeholder="Teléfono">
+                </div>
 
-            <article class="card">
+                <div>
+                    <label for="">Servicio:</label>
+                    <select>
+                        <option>Seleccione un servicio</option>
+                        <option>Compra de PC</option>
+                        <option>Compra de Laptop</option>
+                        <option>Armado de PC</option>
+                        <option>Servicio Técnico</option>
+                        <option>Actualización de hardware</option>
+                        <option>Instalación de software</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
 
-                <i class="fa-solid fa-bullseye"></i>
+                <div id = "tipo-atencion">
+                    <label for="">Tipo de atención:</label>
+                    <br>
 
-                <h2>Misión</h2>
+                    <div>
+                        <input type="radio" name="atencion" id="tienda">
+                        <label for="tienda">En tienda</label>
 
-                <p>Ofrecer equipos de cómputo, componentes y accesorios de calidad a precios competitivos, complementados con servicios técnicos especializados que permitan a estudiantes, hogares y pequeños negocios contar con soluciones tecnológicas confiables.</p>
+                        <input type="radio" name="atencion" id="domicilio">
+                        <label for="domicilio">A domicilio</label>
+                    </div>
+                    
+                </div>
 
-            </article>
+                <div>
+                    <label for="">Consulta:</label>
+                    <textarea rows="6" placeholder="Describe tu consulta..."></textarea>
+                </div>
 
-            <article class="card">
+                <button>ENVIAR CONSULTA</button>
 
-                <i class="fa-solid fa-eye"></i>
-
-                <h2>Visión</h2>
-
-                <p>Ser la tienda de confianza en Lima para quienes buscan equipos confiables, asesoría honesta y soluciones tecnológicas adaptadas a cada necesidad.</p>
-
-            </article>
-
-        </section>
-
-        <!-- ========== Valores ========== -->
-        <section class="valores">
-
-            <h2>Nuestros valores</h2>
-
-            <div class="cards">
-
-                <article class="card">
-
-                    <i class="fa-solid fa-handshake"></i>
-
-                    <h3>Honestidad</h3>
-                    <p>Recomendamos únicamente lo que el cliente realmente necesita.</p>
-
-                </article>
-
-                <article class="card">
-
-                    <i class="fa-solid fa-microchip"></i>
-
-                    <h3>Calidad</h3>
-                    <p>Trabajamos con equipos y componentes de marcas confiables.</p>
-
-                </article>
-
-                <article class="card">
-
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-
-                    <h3>Compromiso</h3>
-                    <p>Cada computadora recibe el mismo cuidado como si fuera nuestra.</p>
-
-                </article>
-
-                <article class="card">
-
-                    <i class="fa-solid fa-users"></i>
-
-                    <h3>Cercanía</h3>
-                    <p>Explicamos cada solución con un lenguaje claro y sencillo.</p>
-
-                </article>
+                </form>
 
             </div>
-
-        </section>
-
-        <!-- ========== Contacto ========== -->
-        <section class="contacto">
-
-            <h2>Tecnología a tu medida</h2>
-
-            <p>En PixelCore creemos que elegir una computadora no debería ser complicado. Estamos aquí para ayudarte antes, durante y después de tu compra.</p>
-
-            <button>CONTÁCTANOS</button>
 
         </section>
 
@@ -207,6 +160,7 @@
 
         </div>
 
-    </footer>
+    </footer>   
+
 </body>
 </html>
