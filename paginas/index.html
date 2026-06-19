@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styleIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <script src = "../js/scriptIndex.js" defer></script>
     <title>PixelCore - Tecnología a tu medida</title>
 </head>
 <body>
@@ -25,8 +24,8 @@
             <ul>
                 <li><a href = "#" class = "active">INICIO</a></li>
                 <li><a href = "./tienda.html">TIENDA</a></li>
-                <li><a href = "#">SERVICIOS</a></li>
-                <li><a href = "#">ARMA TU PC</a></li>
+                <li><a href = "./servicios.html">SERVICIOS</a></li>
+                <li><a href = "./arma-tu-pc.html">ARMA TU PC</a></li>
                 <li><a href = "./nosotros.html">NOSOTROS</a></li>
                 <li><a href = "./contacto.html">CONTACTO</a></li>
                 <li><a href = "#">CARRITO DE COMPRAS</a></li>
@@ -40,9 +39,6 @@
 
         <!-- Banner -->
         <section class = "carrusel">
-            <button class = "button prev">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
             <div class = "carrusel-viewport">
                 <div class = "carrusel-contenedor">
                     <a href="./laptops.html"><img src = "../imagenes/banners/banner_laptop.png" alt = "banner de laptops"></a>
@@ -51,9 +47,6 @@
                     <a href="./perifericos.html"><img src = "../imagenes/banners/banner_perifericos.png" alt = "Periféricos"></a>
                 </div>
             </div>
-            <button class = "button next">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
         </section>
 
         <!-- Productos -->
@@ -112,19 +105,22 @@
             <h2>ARMA TU PC CON NOSOTROS</h2>
             <div class = "armado-pc-contenido">
                 <iframe 
-                    width = "1200" height = "360"
                     src = "https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
                     title = "Video: Cómo armar tu PC con PixelCore" 
-                    frameborder = "0" 
                     allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy = "strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
+
                 <p>Diseñamos una PC a la medida de tus necesidades y presupuesto.
                     <br> <br> 
                     Ya sea para gaming, diseño, programación, edición de video o trabajo profesional, te ayudamos a seleccionar cada componente para obtener el mejor rendimiento posible.
                 </p>
-                <button>ARMA TU PC <i class="fas fa-arrow-right"></i></button>
+
+                <a href="./arma-tu-pc.html">
+                    <button>ARMA TU PC <i class="fas fa-arrow-right"></i></button>
+                </a>
+                
             </div>
 
         </section>
@@ -135,29 +131,35 @@
             <h2>NUESTROS SERVICIOS</h2>
             <div class = "servicios-grid">
 
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-mantenimiento.jpg" alt = "Mantenimiento de equipos">
-                    <div class = "servicios-texto">
-                        <h3>MANTENIMIENTO DE EQUIPOS</h3>
-                        <p>Ofrecemos servicios de mantenimiento preventivo y correctivo para garantizar el óptimo funcionamiento de tus equipos.</p>
+                <a href="./servicios.html">
+                    <div class = "servicios-card">
+                        <img src = "../imagenes/tarjetas/servicios/card-servicios-mantenimiento.jpg" alt = "Mantenimiento de equipos">
+                        <div class = "servicios-texto">
+                            <h3>MANTENIMIENTO DE EQUIPOS</h3>
+                            <p>Ofrecemos servicios de mantenimiento preventivo y correctivo para garantizar el óptimo funcionamiento de tus equipos.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-instalacion.webp" alt = "Instalación de software">
-                    <div class = "servicios-texto">
-                        <h3>INSTALACIÓN DE SOFTWARE</h3>
-                        <p>Instalamos software y configuramos tu sistema para que esté listo para usar.</p>
+                <a href="./servicios.html">
+                    <div class = "servicios-card">
+                        <img src = "../imagenes/tarjetas/servicios/card-servicios-instalacion.webp" alt = "Instalación de software">
+                        <div class = "servicios-texto">
+                            <h3>INSTALACIÓN DE SOFTWARE</h3>
+                            <p>Instalamos software y configuramos tu sistema para que esté listo para usar.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class = "servicios-card">
-                    <img src = "../imagenes/tarjetas/servicios/card-servicios-reparacion.jpg" alt = "Reparación de equipos">
-                    <div class = "servicios-texto">
-                        <h3>DIAGNÓSTICO Y REPARACIÓN</h3>
-                        <p>Realizamos diagnósticos precisos y reparaciones para resolver cualquier problema técnico en tus equipos.</p>
+                <a href="./servicios.html">
+                    <div class = "servicios-card">
+                        <img src = "../imagenes/tarjetas/servicios/card-servicios-reparacion.jpg" alt = "Reparación de equipos">
+                        <div class = "servicios-texto">
+                            <h3>DIAGNÓSTICO Y REPARACIÓN</h3>
+                            <p>Realizamos diagnósticos precisos y reparaciones para resolver cualquier problema técnico en tus equipos.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
             </div>
 
