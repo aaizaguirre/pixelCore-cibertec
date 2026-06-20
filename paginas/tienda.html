@@ -26,8 +26,8 @@
             <ul>
                 <li><a href = "./index.html">INICIO</a></li>
                 <li><a href = "#" class = "active">TIENDA</a></li>
-                <li><a href = "#">SERVICIOS</a></li>
-                <li><a href = "#">ARMA TU PC</a></li>
+                <li><a href = "./servicios.html">SERVICIOS</a></li>
+                <li><a href = "./arma-tu-pc.html">ARMA TU PC</a></li>
                 <li><a href = "./nosotros.html">NOSOTROS</a></li>
                 <li><a href = "./contacto.html">CONTACTO</a></li>
                 <li><a href = "#">CARRITO DE COMPRAS</a></li>
@@ -40,9 +40,6 @@
 
         <!-- Banner -->
         <section class = "carrusel">
-            <button class = "button prev">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
             <div class = "carrusel-viewport">
                 <div class = "carrusel-contenedor">
                     <a href="./laptops.html"><img src = "../imagenes/banners/banner_laptop.png" alt = "banner de laptops"></a>
@@ -51,16 +48,13 @@
                     <a href="./perifericos.html"><img src = "../imagenes/banners/banner_perifericos.png" alt = "Periféricos"></a>
                 </div>
             </div>
-            <button class = "button next">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
         </section>
 
         <!-- Tarjetas por sección -->
             <section class = "productos">
 
                 <div class = "productos-card">
-                    <a href = "/paginas/laptops.html"> <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops"></a>
+                    <a href = "./laptops.html"> <img class = "producto-img" src = "../imagenes/tarjetas/productos/card-laptop.png" alt = "Laptops"></a>
                     <div class = "producto-texto">
                         <h2>LAPTOPS</h2>
                         <p>24 productos</p>
@@ -89,6 +83,7 @@
                         <h2>PERIFÉRICOS</h2>
                         <p>24 productos</p>
                     </div>
+                </div>
 
             </section>
 
@@ -107,9 +102,9 @@
             <!-- Categorías -->  
             <aside>
                 <h2>Categoría</h2>
-                <button class = "btn active btnVendidos">MÁS VENDIDOS</button>
-                <button class = "btn btnNuevos">MÁS NUEVOS</button>
-                <button class = "btn btnOfertas">OFERTAS</button>
+                <button class = "btn active btnVendidos" type="button">MÁS VENDIDOS</button>
+                <button class = "btn btnNuevos" type="button">MÁS NUEVOS</button>
+                <button class = "btn btnOfertas" type="button">OFERTAS</button>
             </aside>
 
             <!-- Equipos-->  
@@ -122,14 +117,14 @@
                     <figcaption>
                         <h3>Laptop Acer Aspire Lite Intel Core I7-13620h 16gb 512 Gb 15.6" FHD IPS (1920 X 1080)</h3>
                         <div class="precios">
-                            <p>Precio: S/. 3 349</p>
-                            <p>Precio en oferta: S/. 2 599</p>
+                            <p>Precio: S/. 3 349.00</p>
+                            <p>Precio en oferta: S/. 2 599.00</p>
                         </div>
                     </figcaption>
                 </figure>
 
                 <figure>
-                    <a href="../imagenes/laptops/acer/acer nitro lite intel core i7.webp" data-lightbox="image-2" data-title = "Laptop Gamer Nitro Lite  Intel Core I7-13620H  Rtx 4050  16 GB RAM 512 GB SSD 16" Wuxga (1920 X 1200) 165Hz Nvidia Geforce">
+                    <a href="../imagenes/laptops/acer/acer nitro lite intel core i7.webp" data-lightbox="image-2" data-title = "Laptop Gamer Nitro Lite  Intel Core I7-13620H  Rtx 4050  16 GB RAM 512 GB SSD 16 Wuxga (1920 X 1200) 165Hz Nvidia Geforce">
                         <img src="../imagenes/laptops/acer/acer nitro lite intel core i7.webp" alt="Laptop Acer Nitro Lite Intel core i7">
                     </a>
                     <figcaption>
@@ -142,7 +137,7 @@
                 </figure>
 
                 <figure>
-                    <a href="../imagenes/laptops/hp/hp gamer OMEN max 16.webp" data-lightbox="image-3" data-title="Laptop Hp Gamer Omen Max 16-ah0006la Intel Core Ultra7 32gb Ram 1tbrtx5070 Ssd 16"">
+                    <a href="../imagenes/laptops/hp/hp gamer OMEN max 16.webp" data-lightbox="image-3" data-title="Laptop Hp Gamer Omen Max 16-ah0006la Intel Core Ultra7 32gb Ram 1tbrtx5070 Ssd 16">
                         <img src="../imagenes/laptops/hp/hp gamer OMEN max 16.webp" alt="Laptop HP gamer OMEN">
                     </a>
                     <figcaption>
@@ -155,7 +150,7 @@
                 </figure>
 
                 <figure>
-                    <a href="../imagenes/laptops/lenovo/lenovo LOQ essential e gen 11.webp" data-lightbox="image-4" data-title="Laptop Gamer Lenovo LOQ Essential 13va Gen Intel Core i5 RTX 5050 16GB RAM 512GB SSD 15.6" FHD 144Hz">
+                    <a href="../imagenes/laptops/lenovo/lenovo LOQ essential e gen 11.webp" data-lightbox="image-4" data-title="Laptop Gamer Lenovo LOQ Essential 13va Gen Intel Core i5 RTX 5050 16GB RAM 512GB SSD 15.6 FHD 144Hz">
                         <img src="../imagenes/laptops/lenovo/lenovo LOQ essential e gen 11.webp" alt="Laptop Lenovo LOQ essential e gen 11">
                     </a>
                     
@@ -198,8 +193,8 @@
 
         </div>
 
-         <!-- Armado de PC -->
-        <section class = "armado-pc seccion interior">
+        <!-- Armado de PC -->
+        <section class = "armado-pc seccion-interior">
                 <iframe 
                     width = "720" height = "360"
                     src = "https://www.youtube-nocookie.com/embed/bmqyrYRSf_Q?si=VLhyrjJyoLAX0cys" 
@@ -214,7 +209,7 @@
                     <p>Elige tus componentes y nosotros la armamos.</p>
                     <p>Garantía incluída.</p>   
                 </div>
-                <a href="./arma-tu-pc">
+                <a href="./arma-tu-pc.html">
                     <button>ARMA TU PC <i class="fas fa-arrow-right"></i></button>
                 </a>
 
