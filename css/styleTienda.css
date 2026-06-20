@@ -298,6 +298,7 @@ aside button:hover{
     width: 30%;
     border: solid #0c0d0d 2px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .equipos figure img {
@@ -318,6 +319,22 @@ aside button:hover{
 
 .equipos figure figcaption p {
     margin: 5px 0; 
+}
+
+.equipos button{
+    width: 50%;
+    height: 42px;
+    border: #000000;
+    border-radius: 10px;
+    background-color: #302f2f;
+    color: white;
+    margin-top: 10px;
+}
+
+.equipos button:hover{
+    background-color: #222;
+    border: solid #222;
+    color: #ece81a;
 }
 
 /* ---------- Armado de PC ---------- */
