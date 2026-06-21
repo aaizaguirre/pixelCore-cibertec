@@ -1,0 +1,17 @@
+LAPTOPS 24 productos
+PC's de escritorio 12 productos
+COMPONENTES DE PC 48 productos
+PERIFÉRICOS 24 productos
+
+CATEGORÍAS: 
+- Más nuevos
+- Más vendidos
+- Ofertas
+
+EQUIPOS
+Cada equipo contiene su describción en el doc con su mismo nombre.
+
+ARMADO DE PC
+¿Quieres una PC a tu medida? 
+Elige tus componentes y nosotros la armamos. 
+Garantía incluída. 
