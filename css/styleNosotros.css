@@ -107,6 +107,16 @@ main section{
     margin:100px auto;
 }
 
+/* ---------- Presentación ---------- */
+.presentacion{
+    align-items: center;
+}
+
+audio{
+    display: block;
+    margin: 50px auto 10px auto;
+}
+
 /* ---------- Banner ---------- */
 .banner{
     display: flex;
@@ -176,9 +186,15 @@ main section{
 
 /* ---------- Valores ---------- */
 .valores .cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.valores .card{
+    flex: 1 1 220px;
+    max-width: 260px; 
 }
 
 /* ---------- Contacto ---------- */
@@ -198,17 +214,21 @@ main section{
     margin-left: 0;
 }
 
-.contacto button{
+.contacto a{
     width: 15%;
-    height: 45px;
+}
+
+.contacto a button{
+    width: 100%;
+    height: 42px;
+    background-color: #0c0d0d;
     border: #0c0d0d;
     border-radius: 10px;
-    background-color: #0c0d0d;
     color: white;
     font-weight: bold;
 }
 
-.contacto button:hover{
+.contacto a button:hover{
     background-color: #222;
     border: solid #222;
     color: #ece81a;
