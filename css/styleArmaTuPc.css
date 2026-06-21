@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
-    background: #0f0f1a;
+    background-color: #000000;
     color: white;
 }
 
@@ -17,8 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: #15152a;
-    border-bottom: 2px solid #2a2a40;
+    background: #050505;
 }
 
 .logo {
@@ -40,7 +39,8 @@ nav a {
 
 nav a:hover,
 nav .activo {
-    color: #00e5ff;
+    background-color: #222;
+    color: #ece81a;
 }
 
 /* ===== HERO ===== */
@@ -54,7 +54,7 @@ nav .activo {
 
 .hero h2 {
     font-size: 40px;
-    color: #00e5ff;
+    color: #ece81a;
 }
 
 .hero p {
@@ -70,18 +70,18 @@ nav .activo {
 .hero button {
     padding: 16px 45px; /* Botón más grande */
     font-size: 20px;    /* Letra más grande */
-    background: #00e5ff;
-    border: none;
-    color: black;
+    background-color: #0c0d0d;
+    border: #0c0d0d;
+    color: white;
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
     transition: 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 229, 255, 0.2); /* Sombra sutil */
+    box-shadow: 0 4px 15px rgba(208, 255, 0, 0.2); /* Sombra sutil */
 }
 
 .hero button:hover {
-    background: #00bcd4;
+    background: #ece81a;
     transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
 }
 
@@ -118,7 +118,7 @@ nav .activo {
     text-align: center;
     font-size: 28px;
     margin: 30px 0;
-    color: #00e5ff;
+    color: #ece81a;
     font-weight: bold;
 }
 
@@ -150,6 +150,6 @@ footer {
 }
 
 footer h3 {
-    color: #00e5ff;
+    color: #ece81a;
     margin-bottom: 10px;
 }
