@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCore - Arma tu PC</title>
+    <link href="../css/styleArmadoTuPc.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">
+        <img src="../imagenes/logo-pixelCore.png" alt="Logo">
+        <div>
+            <h1>PixelCore</h1>
+            <p>Tecnología a tu medida</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./tienda.html">Tienda</a>
+        <a href="./servicios.html">Servicios</a>
+        <a href="#" class="activo">Arma tu PC</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>ARMA TU PC</h2>
+    <p>con componentes a tu medida</p>
+
+    <img src="../imagenes/images-removebg-preview.png" alt="PC" class="hero-img">
+
+    <button>COMENZAR</button>
+</section>
+
+<!-- COMPONENTES -->
+<section class="componentes">
+
+    <label for="cpu">Procesador</label>
+    <select id="cpu">
+        <option value="">Selecciona un procesador</option>
+        <option value="Intel Core i5-14400F">Intel Core i5-14400F</option>
+        <option value="Intel Core i7-14700K">Intel Core i7-14700K</option>
+        <option value="AMD Ryzen 5 7600X">AMD Ryzen 5 7600X</option>
+    </select>
+
+    <label for="gpu">Tarjeta Gráfica</label>
+    <select id="gpu">
+        <option value="">Selecciona una gráfica</option>
+        <option value="NVIDIA GeForce RTX 3060">NVIDIA GeForce RTX 3060</option>
+        <option value="NVIDIA GeForce RTX 4060">NVIDIA GeForce RTX 4060</option>
+        <option value="AMD Radeon RX 7700 XT">AMD Radeon RX 7700 XT</option>
+    </select>
+
+    <label for="ram">Memoria RAM</label>
+    <select id="ram">
+        <option value="">Selecciona memoria RAM</option>
+        <option value="Corsair Vengeance 16GB DDR5">Corsair Vengeance 16GB DDR5</option>
+        <option value="Kingston Fury Beast 16GB DDR5">Kingston Fury Beast 16GB DDR5</option>
+        <option value="G.Skill Ripjaws 32GB DDR5">G.Skill Ripjaws 32GB DDR5</option>
+    </select>
+
+    <label for="almacenamiento">Almacenamiento</label>
+    <select id="almacenamiento">
+        <option value="">Selecciona almacenamiento</option>
+        <option value="Samsung 990 EVO 1TB SSD">Samsung 990 EVO 1TB SSD</option>
+        <option value="Kingston NV2 1TB SSD">Kingston NV2 1TB SSD</option>
+        <option value="WD Black SN850X 2TB SSD">WD Black SN850X 2TB SSD</option>
+    </select>
+
+    <label for="fuente">Fuente de Poder</label>
+    <select id="fuente">
+        <option value="">Selecciona fuente</option>
+        <option value="Corsair RM650e 650W">Corsair RM650e 650W</option>
+        <option value="MSI MAG A750GL 750W">MSI MAG A750GL 750W</option>
+        <option value="Cooler Master MWE 850W">Cooler Master MWE 850W</option>
+    </select>
+
+    <label for="gabinete">Gabinete</label>
+    <select id="gabinete">
+        <option value="">Selecciona gabinete</option>
+        <option value="NZXT H5 Flow">NZXT H5 Flow</option>
+        <option value="Corsair 4000D Airflow">Corsair 4000D Airflow</option>
+        <option value="Lian Li Lancool 216">Lian Li Lancool 216</option>
+    </select>
+
+</section>
+
+<!-- TOTAL -->
+<section class="total">
+    <h2>Total: S/ <span id="total">0</span></h2>
+</section>
+
+<!-- CONTACTO -->
+<section class="contacto">
+    <h2>Contáctanos para cotizar tu PC personalizada</h2>
+
+    <div class="whatsapp">
+        <span>📱</span>
+        <a href="#">902 127 933</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <div>
+        <h3>PixelCore</h3>
+        <p>Tecnología a tu medida</p>
+    </div>
+
+    <div>
+        <h3>Dirección</h3>
+        <p>Pasaje Velarde 188</p>
+        <p>Cercado de Lima</p>
+    </div>
+
+    <div>
+        <h3>Contacto</h3>
+        <p>+51 980 456 879</p>
+        <p>pixelcore@gmail.com</p>
+    </div>
+
+    <div>
+        <h3>Síguenos</h3>
+        <p>Instagram | Facebook</p>
+    </div>
+
+</footer>
+
+<!-- JS -->
+<script>
+const precios = {
+    cpu: {
+        "Intel Core i5-14400F": 600,
+        "Intel Core i7-14700K": 1200,
+        "AMD Ryzen 5 7600X": 900
+    },
+    gpu: {
+        "NVIDIA GeForce RTX 3060": 900,
+        "NVIDIA GeForce RTX 4060": 1400,
+        "AMD Radeon RX 7700 XT": 1600
+    },
+    ram: {
+        "Corsair Vengeance 16GB DDR5": 250,
+        "Kingston Fury Beast 16GB DDR5": 240,
+        "G.Skill Ripjaws 32GB DDR5": 400
+    },
+    almacenamiento: {
+        "Samsung 990 EVO 1TB SSD": 300,
+        "Kingston NV2 1TB SSD": 250,
+        "WD Black SN850X 2TB SSD": 500
+    },
+    fuente: {
+        "Corsair RM650e 650W": 350,
+        "MSI MAG A750GL 750W": 450,
+        "Cooler Master MWE 850W": 500
+    },
+    gabinete: {
+        "NZXT H5 Flow": 300,
+        "Corsair 4000D Airflow": 280,
+        "Lian Li Lancool 216": 320
+    }
+};
+
+const selects = document.querySelectorAll("select");
+const totalEl = document.getElementById("total");
+
+function calcularTotal() {
+    let total = 0;
+
+    selects.forEach(select => {
+        const valor = select.value;
+        const id = select.id;
+
+        if (precios[id] && precios[id][valor]) {
+            total += precios[id][valor];
+        }
+    });
+
+    totalEl.textContent = total;
+}
+
+selects.forEach(select => {
+    select.addEventListener("change", calcularTotal);
+});
+</script>
+
+</body>
+</html>
